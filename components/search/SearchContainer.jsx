@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  CompanyInput,
-  FreeTagInput,
-  LocationInput,
-  MultiselectInput,
-  TechStackInput,
-} from "./MultiselectInputs";
+import { FreeTagInput, MultiselectInput } from "./MultiselectInputs";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -31,26 +25,7 @@ const theme = createTheme({
     tonalOffset: 0.2,
   },
 });
-const companies = [
-  { name: "Infobip", id: 1 },
-  { name: "Uber", id: 2 },
-  { name: "Microsoft", id: 3 },
-  { name: "Google", id: 4 },
-  { name: "FIVE", id: 5 },
-];
-const locations = [
-  { name: "Asia", id: 1994 },
-  { name: "EU", id: 1972 },
-  { name: "USA", id: 1974 },
-  { name: "All", id: 2008 },
-  { name: "Remote", id: 2008 },
-];
-const langs = [
-   { name: "C#", id: 12 },
-   { name: "GO", id: 2 },
-   { name: "Java", id: 1 },
-   { name: "javascript", id: 3 },
- ];
+
 const SearchContainer = () => {
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
@@ -85,7 +60,7 @@ const SearchContainer = () => {
                 label="Companies"
                 options={companies}
                 limitTags={3}
-                defaultValue={[0, 1]}
+                defaultValue={[0, 1]}//commonly searched companies
               />
             </div>
             <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
@@ -94,7 +69,7 @@ const SearchContainer = () => {
                 label="Location"
                 options={locations}
                 limitTags={2}
-                defaultValue={[0, 1]}
+                defaultValue={[0]}//all
                 customChip={true}
               />
               <MultiselectInput
@@ -102,7 +77,6 @@ const SearchContainer = () => {
                 label="Tech stack"
                 options={langs}
                 limitTags={2}
-                defaultValue={[0, 1]}
               />
             </div>
           </ThemeProvider>
@@ -115,3 +89,24 @@ const SearchContainer = () => {
   );
 };
 export default SearchContainer;
+
+const companies = [
+  { name: "Infobip", id: 1 },
+  { name: "Uber", id: 2 },
+  { name: "Microsoft", id: 3 },
+  { name: "Google", id: 4 },
+  { name: "FIVE", id: 5 },
+];
+const locations = [
+  { name: "All", id: 1994 },
+  { name: "EU", id: 1972 },
+  { name: "USA", id: 1974 },
+  { name: "Asia", id: 2008 },
+  { name: "Remote", id: 2008 },
+];
+const langs = [
+  { name: "C#", id: 12 },
+  { name: "GO", id: 2 },
+  { name: "Java", id: 1 },
+  { name: "javascript", id: 3 },
+];
