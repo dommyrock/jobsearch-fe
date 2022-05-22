@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { React,useEffect, memo,useRef, useState } from "react";
 import {
   job_a_class,
   job_card_header,
@@ -9,9 +9,9 @@ import {
   job_flex,
   job_tags,
   pre_card_content,
-} from "../../css/job.module.css";
+} from "../../styles/job.module.css";
 
-const Post = React.memo(function Post({ job }) {
+const Post = memo(function Post({ job }) {
   const divRef = useRef(null);
   const [buttons, setButtons] = useState("initial"); 
   //TODO : For mobile view remove short description and just show title and locations
@@ -40,6 +40,8 @@ const Post = React.memo(function Post({ job }) {
   useEffect(() => {
     //inject description into DOM(to be rendered as html, not string)
     divRef.current.innerHTML = job.summary;
+    let dat = job
+    debugger
   }, []);
 
   return (
@@ -134,7 +136,7 @@ const Post = React.memo(function Post({ job }) {
                 {/* TODO : ADD Company icon here if it exists in cdn else show default svg */}
               </ul>
               <h2 itemProp="title" className={job_card_title}>
-                {job.job_title}
+                {job.title}
               </h2>
               <div className={job_div_flex_row}>
                 <ul className={`${job_tags} ${job_flex}`}>

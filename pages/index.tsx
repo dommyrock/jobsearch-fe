@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import SocialsContainer from "../components/common/SocialsContainer";
 import SearchContainer from "../components/search/SearchContainer";
+import Post from "../components/jobs/Post";
+import mockdata from "../mockdata.json";
 
 const Home: NextPage = () => {
   return (
@@ -20,13 +22,22 @@ const Home: NextPage = () => {
         <div className="col-span-4">
           <SearchContainer />
         </div>
-        {/* Left sidebar */}
-        <div className="col-span-1 min-h-screen bg-slate-300 p-4">
-          <h1>sidebar </h1>
-        </div>
+
         {/* JobPosts */}
-        <div className="col-span-3 min-h-screen bg-slate-800 p-4">
-          <h1 className="text-xl text-pink-500">search results /jobs</h1>
+        <div className="col-span-3 min-h-screen bg-slate-300 p-4 ">
+          <div>
+            <ol>
+              {mockdata.jobs.map((job, index) => (
+                //ts type error/ignore
+                <Post key={index} job={job} />
+              ))}
+            </ol>
+          </div>
+        </div>
+
+        {/* Right sidebar */}
+        <div className="col-span-1 min-h-screen bg-slate-600 p-4 text-pink-500 text-2xl text-center">
+          <h1>sidebar </h1>
         </div>
       </main>
 

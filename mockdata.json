@@ -1,0 +1,1116 @@
+{
+  "count": 5015,
+  "next_page": 3,
+  "page_size": 20,
+  "jobs": [
+    {
+      "id": "jobs/98022288412025542",
+      "title": "System Validation Engineer, Silicon Power and Performance",
+      "categories": ["HARDWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckW_xgJX-VifPJ31ngt5FrKAzuPidNR3IEPCwesVD1Ae4EjsAkXGnO_XspOW6yeO6cok255H6tiBRNO-BaZF5S_MhUcxm0oCg0CtNIBKcr6aEMHpe8JNzlm1CqWgbxQ%3D%3D_V2&jobTitle=System+Validation+Engineer&loc=US",
+      "responsibilities": "<ul>\n<li>Perform silicon workload system analysis to deliver power/performance optimization across process, voltage and temperature.</li>\n<li>Drive silicon validation and Vmin/Fmax/Power parametric collection, analysis and correlation across high volume.</li>\n<li>Analyze system requirements and identify most effective ways to improve system as a function of production parameters.</li>\n<li>Drive hardware Power feature enablement with Software/Hardware Design teams, among others.</li>\n<li>Create flow, test content, and automation for execution and data analysis to identify process, hardware and system related issues to ensure low defective parts per million.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor’s degree in Electrical Engineering, Computer Engineering, or equivalent practical experience.\n</li>\n<li>2 years of experience in hardware verification methodologies (Vmin, Fmax).\n</li>\n<li>Experience with hardware/software design, architecture, or debug for CPU, GPU, memory, or interfaces.\n</li>\n<li>Experience with debug methodology of low level hardware and software issues.\n</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master’s degree or PhD in Electrical Engineering, Computer Engineering, or Computer Science, with emphasis on computer architecture and hardware validation.</li>\n<li>5 years of experience in post-silicon enablement, bring-up, debug, and automation.\n</li>\n<li>Experience with debug lab equipment such as logic analyzers, oscilloscopes, JTAG debuggers, and/or Power.</li>\n<li>Experience with Android OS and with Programming languages such as Python.</li>\n<li>Knowledge of Yield optimization methodologies, Fmax, Vmin test methodology and defect management.</li>\n<li>Knowledge of the impact of software and architectural design decisions on power and thermal behavior of the system (thermal mitigation and scheduling, cross-layer policy design).</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.4238808,
+          "lon": -122.0916446,
+          "address_lines": ["Google Building GWC1, 2025 Garcia Ave, Mountain View, CA 94043, USA"],
+          "city": "Mountain View",
+          "post_code": "94043",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "San Diego, CA, USA",
+          "lat": 32.715738,
+          "lon": -117.1610838,
+          "address_lines": ["San Diego, CA, USA"],
+          "city": "San Diego",
+          "post_code": "",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Our computational challenges are so big, complex and unique we can't just purchase off-the-shelf hardware, we've got to make it ourselves. Your team designs and builds the hardware, software and networking technologies that power all of Google's services. As a Hardware Engineer, you design and build the systems that are the heart of the world's largest and most powerful computing infrastructure. You develop from the lowest levels of circuit design to large system design and see those systems all the way through to high volume manufacturing. Your work has the potential to shape the machinery that goes into our cutting-edge data centers affecting millions of Google users.</p>\n<p>In this role, you will be part of the SoC Systems Performance Analysis team focused on driving system analysis and helping define next-generation architecture for Google’s custom Silicon. You will develop and execute plans to validate performance, power across fmax, voltages for Silicon. This team of engineers will have good knowledge of SoC Architecture, Hardware, and Android software. </p><p>Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences. We research, design, and develop new technologies and hardware to make computing faster, seamless, and more powerful. We aim to make people's lives better through technology.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-05-20T19:32:11.878Z",
+      "modified": "2022-05-20T19:32:11.878Z",
+      "publish_date": "2022-05-20T19:32:13.143Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 2,
+      "additional_instructions": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <b>Mountain View, CA, USA; San Diego, CA, USA</b>.",
+      "summary": "<ul>\n<li>Bachelor’s degree in Electrical Engineering, Computer Engineering, or equivalent practical experience.\n</li>\n<li>2 years of experience in hardware verification methodologies (Vmin, Fmax).\n</li>\n<li>Experience with hardware/software design, architecture, or debug for CPU, GPU, memory, or interfaces.\n</li>\n<li>Experience with debug methodology of low level hardware and software issues.\n</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.422525,
+          "lon": -122.0756
+        },
+        {
+          "lat": 32.909578,
+          "lon": -117.181893
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/89565429086724806",
+      "title": "Technical Program Manager, Engineering, Users and Products",
+      "categories": ["PROGRAM_MANAGEMENT"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckbZ6Q3mKQO3-zsrxo2QRNAzVO-4tetB72VeFWSr3Zcu6EjsAkXGnO7CGYtBoOmDMpjPwQqIrqjzD5bSVnc2CRx07s8gdiV6AxbwDMLtsMmepbW3Al_Ks-EpBFqfYCA%3D%3D_V2&jobTitle=Technical+Program+Manager&loc=US",
+      "responsibilities": "<ul>\n<li>Work closely with software engineers, product managers, and other engineering teams to get high-quality products and features through the software project lifecycle.</li>\n<li>Use excellent communication skills to understand and communicate both engineering issues and project strategy.</li>\n<li>Identify gaps and drive alignment. Solve cross-functional and inter-team issues quickly.</li>\n<li>Manage program/project schedules, identify possible issues, and clearly communicate them to the stakeholders.</li>\n<li>Drive cross-team and cross-organization alignments with gTech Users and Products Engineering stakeholders.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree in Computer Science, related technical field, or equivalent practical experience.</li>\n<li>3 years of experience managing global programs.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master's degree in Computer Science or related technical field.</li>\n<li>Experience in problem-solving and analyzing global scale distributed systems.</li>\n<li>Excellent verbal/written communication and problem-solving skills.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Boulder, CO, USA",
+          "lat": 40.0216013,
+          "lon": -105.2545612,
+          "address_lines": ["Google Bldg 2930, 2930 Pearl St, Boulder, CO 80301, USA"],
+          "city": "Boulder",
+          "post_code": "80301",
+          "country": "CO",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.3860517,
+          "lon": -122.0838511,
+          "address_lines": ["Mountain View, CA, USA"],
+          "city": "Mountain View",
+          "post_code": "",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "New York, NY, USA",
+          "lat": 40.7127753,
+          "lon": -74.0059728,
+          "address_lines": ["New York, NY, USA"],
+          "city": "New York",
+          "post_code": "",
+          "country": "NY",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Pittsburgh, PA, USA",
+          "lat": 40.44062479999999,
+          "lon": -79.9958864,
+          "address_lines": ["Pittsburgh, PA, USA"],
+          "city": "Pittsburgh",
+          "post_code": "",
+          "country": "PA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "San Francisco, CA, USA",
+          "lat": 37.7749295,
+          "lon": -122.4194155,
+          "address_lines": ["San Francisco, CA, USA"],
+          "city": "San Francisco",
+          "post_code": "",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Technical Program Manager at Google, you’ll use your technical expertise to lead complex, multi-disciplinary projects from start to finish. You’ll work with stakeholders to plan requirements, identify risks, manage project schedules, and communicate clearly with cross-functional partners across the company. You're equally comfortable explaining your team's analyses and recommendations to executives as you are discussing the technical tradeoffs in product development with engineers.<br><br>Our goal is to build a Google that looks like the world around us — and we want Googlers to stay and grow when they join us. As part of our efforts to build a Google for everyone, we build diversity, equity, and inclusion into our work and we aim to cultivate a sense of belonging throughout the company.</p><p>Behind everything our users see online is the architecture built by the Technical Infrastructure team to keep it running. From developing and maintaining our data centers to building the next generation of Google platforms, we make Google's product portfolio possible. We're proud to be our engineers' engineers and love voiding warranties by taking things apart so we can rebuild them. We keep our networks up and running, ensuring our users have the best and fastest experience possible.</p>\n<p>\n<b>Additional Information</b><br>\n(Colorado only*) Minimum salary range between $104,000 - $112,000 + bonus + equity + benefits.<br>\n\n*Note: Disclosure as required by sb19-085 (8-5-20) of the minimum salary compensation range for this role when being hired into our offices in Colorado.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT", "MASTERS_OR_EQUIVALENT"],
+      "created": "2022-05-20T19:32:12.944Z",
+      "modified": "2022-05-20T19:32:12.944Z",
+      "publish_date": "2022-05-20T19:32:13.044Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 5,
+      "additional_instructions": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <b>Boulder, CO, USA; Mountain View, CA, USA; New York, NY, USA; Pittsburgh, PA, USA; San Francisco, CA, USA</b>.",
+      "summary": "<ul>\n<li>Bachelor's degree in Computer Science, related technical field, or equivalent practical experience.</li>\n<li>3 years of experience managing global programs.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 40.02095,
+          "lon": -105.249206
+        },
+        {
+          "lat": 37.399633,
+          "lon": -122.057017
+        },
+        {
+          "lat": 40.74136,
+          "lon": -74.003199
+        },
+        {
+          "lat": 40.45716,
+          "lon": -79.916596
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/82666921335366342",
+      "title": "Software Engineer, Google Play",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckbgCqzaLleehYVgLaTncqPn5nPlzvq9Metf-UlNAlXEGEjsAkXGnO_5inJfSnN_h80F6k0v60ksNTA1UjI7ngrM-mjYogYDy0uK91nEOtvppfpCgEvxAq-9-GcApPg%3D%3D_V2&jobTitle=Software+Engineer&loc=GB",
+      "responsibilities": "<ul>\n<li>Design, develop, test, deploy, maintain, and improve software.\n</li>\n<li>Manage individual project priorities, deadlines, and deliverables.</li>\n<li>Integrate our software with other Google products.</li>\n<li>Identify ways for improving our infrastructure.</li>\n<li>Collaborate closely with cross-functional teams and Product Managers.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree in Computer Science, Engineering, Mathematics, Statistics, a related field, or equivalent practical experience. </li>\n<li> Experience with one or more programming languages (e.g., Java, Python, Go, JavaScript, C++, or similar).</li>\n<li>Ability to speak and write in English fluently.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Interest and ability to learn other coding languages.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "London, UK",
+          "lat": 51.53326089999999,
+          "lon": -0.1260032,
+          "address_lines": ["Six Pancras Square, 6 Pancras Sq, London N1C 4AG, UK"],
+          "city": "London",
+          "post_code": "N1C 4AG",
+          "country": "England",
+          "country_code": "GB",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>\n\n<p>Google aspires to be an organization that reflects the globally diverse audience that our products and technology serve. We believe that in addition to hiring talent, a diversity of perspectives, ideas, and cultures leads to the creation of better products and services.</p><p>Google Play offers music, movies, books, apps and games for devices, powered by the cloud. It syncs across devices and on the web. As part of the Android and Mobile team, Googlers working on Google Play do everything from engineering our backend systems, to shaping product strategy, to forming great content partnerships. They make it possible for people to do things like buy an ebook or song on their Android phone, then have it instantly available on their laptop. The Google Play team enhances the Android ecosystem by giving developers and partners a premium store where they can reach millions of users.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT"],
+      "created": "2022-05-20T19:32:14.131Z",
+      "modified": "2022-05-20T19:32:14.131Z",
+      "publish_date": "2022-05-20T19:32:14.343Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor's degree in Computer Science, Engineering, Mathematics, Statistics, a related field, or equivalent practical experience. </li>\n<li> Experience with one or more programming languages (e.g., Java, Python, Go, JavaScript, C++, or similar).</li>\n<li>Ability to speak and write in English fluently.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 51.533107,
+          "lon": -0.125876
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/92152848382337734",
+      "title": "Supplier Development and Quality Engineer (English, Chinese)",
+      "categories": ["HARDWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckZg8GeNqDpPJWRnQ_JYMrE5OkiK_FIHDYsIOFXu4FRV2EjsAkXGnO-8Osta1Iji8dvM5c1ZS1tOfoI020vZVqK6LLHFU7AGJlIvmn71BCHj7FT9nSoEN3-qRHLMKqQ%3D%3D_V2&jobTitle=Supplier+Development+and+Quality+Engineer&loc=TW",
+      "responsibilities": "<ul>\n<li>Drive cross-functional activities in the supply chain for overall technical operational readiness in all new product introduction (NPI) phases leading into mass production.\n</li>\n<li>Collaborate with suppliers and Engineering teams in assessing process technologies based on project requirements, and propose and develop manufacturing blueprint.</li>\n<li>Drive project technical and operational issues (e.g., material, process, fixtures, equipment etc.), during NPI phase to enable delivery of a mature product and manufacturing process into mass production.</li>\n<li>Lead suppliers by providing technical direction to establish and validate process capability during NPI phase for consistently delivering quality products in mass production.</li>\n<li>Utilize DOE (Design of Experiment), FMEA (Failure Mode and Effect Analysis), and other Industry standard tools to identify and address risks and optimize process parameters.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree in Engineering or equivalent practical experience.</li>\n<li>7 years of experience of FPC, PCBA/FPCA manufacturing or design.</li>\n<li>Ability to speak and write in English and Chinese fluently.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Experience of using Statistics tools for Data analysis (e.g., distribution histogram/pareto chart, process control chart, Design of Experiment (DOE), Correlation Analysis, etc.).</li>\n<li>Knowledge in Bending/punching tooling design and engineering knowledge in FPC/FPCA process.</li>\n<li>Knowledge with FPC, PCB, PCBA related IPC quality standard and ability to set-up cosmetic criteria.</li>\n<li>Ability to work with vendors to suffice 2D/3D Drawing requirements, standardize process flow, critical process parameters, and tooling designs.</li>\n<li>Ability to develop new process/material application.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "New Taipei, Banqiao District, New Taipei City, Taiwan",
+          "lat": 25.0253157,
+          "lon": 121.4844122,
+          "address_lines": ["New Taipei Expy, Banqiao District, New Taipei City, Taiwan"],
+          "city": "Banqiao District",
+          "post_code": "",
+          "country": "New Taipei City",
+          "country_code": "TW",
+          "is_remote": false
+        }
+      ],
+      "description": "Google has one of the largest and most powerful computing infrastructures in the world. Your team is responsible for providing the manufacturing capability to deliver this state-of-the-art physical infrastructure. As a Manufacturing Engineer, you evaluate the product designs and create the processes, tools and procedures behind Google's powerful search technology. When vendors build parts for our infrastructure, you're right there alongside ensuring manufacturing processes are repeatable and controlled. You collaborate with Commodity Managers and Design Engineers to determine Google's infrastructure needs and product specifications. Your work ensures the various pieces of Google's infrastructure fit together perfectly and keep our systems humming along smoothly for a seamless user experience.<p>Google's mission is to organize the world's information and make it universally accessible and useful. Our Devices &amp; Services team combines the best of Google AI, Software, and Hardware to create radically helpful experiences for users. We research, design, and develop new technologies and hardware to make our user's interaction with computing faster, seamless, and more powerful. Whether finding new ways to capture and sense the world around us, advancing form factors, or improving interaction methods, the Devices &amp; Services team is making people's lives better through technology.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT"],
+      "created": "2022-05-20T18:32:04.116Z",
+      "modified": "2022-05-20T18:32:04.116Z",
+      "publish_date": "2022-05-20T18:32:04.538Z",
+      "application_instruction": "Google welcomes people with disabilities.",
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor's degree in Engineering or equivalent practical experience.</li>\n<li>7 years of experience of FPC, PCBA/FPCA manufacturing or design.</li>\n<li>Ability to speak and write in English and Chinese fluently.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 25.0253157,
+          "lon": 121.4844122
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/121846987399013062",
+      "title": "Technical Account Manager, Stadia, Immersive Streams for Games",
+      "categories": ["PROGRAM_MANAGEMENT", "SALES"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckbQUhCFpfB8otytDfCvYtfOzt6m9mgpAgfh38yEAB_mwEjsAkXGnO_j3mzD_oCLWLmbrroAkmsJhylNoNapo3i_wUmHMwqRFb35WEo4fl2Lnaxg9H9WBPoi0Jn4GMg%3D%3D_V2&jobTitle=Technical+Account+Manager&loc=CA",
+      "responsibilities": "<ul>\n<li>Drive both technical execution of strategic partner relationships within Google, and end-to-end launches of partner apps/services.</li>\n<li>Perform implementation reviews, advocate new product features, and ensure the prompt and proper resolution of technical challenges.</li>\n<li>Improve product feature offerings by providing partner feedback to internal cross-functional teams including Product Management and Engineering.</li>\n<li>Guarantee the technical aspects of a partner’s integration (both new and ongoing) by providing necessary documentation and technical guidance.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree or equivalent practical experience.</li>\n<li>Experience with C and C++, including debugging and compilation environments.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>4 years of experience working with or for video game developers or publishers.</li>\n<li>Experience with Graphics pipelines (e.g., OpenGL, DirectX, Vulkan), and Visual Studio.</li>\n<li>4 years of experience in Sales/Customer Engineering for Enterprise.</li>\n<li>Understanding of game development lifecycles, combined with developed troubleshooting skills.</li>\n<li>Basic knowledge of scripting in Python and Bash.</li>\n<li>Effective communication and project management skills.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Montreal, QC, Canada",
+          "lat": 45.49912279999999,
+          "lon": -73.5781341,
+          "address_lines": ["2160 Rue de la Montagne #740, Montreal, QC H3G 2T3, Canada"],
+          "city": "Montreal",
+          "post_code": "H3G 2T3",
+          "country": "QC",
+          "country_code": "CA",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>As a Technical Account Manager, you are responsible for providing technical solutions and managing relationships with Google's largest and most strategic online publishers. As a liaison between clients and our technical staff, you flawlessly lead deployments, implementations and integrations of a variety of our product lines (such as Search, Mobile, Video and Commerce). From monitoring product performance to debugging and troubleshooting product code, you are the resident expert that addresses partner needs. You are a technical expert with an entrepreneurial drive and passion for client management.</p>\n\n<p>As a Technical Account Manager for Stadia, you’ll work closely with Product and Engineering counterparts and manage key partners to drive launches and subsequently provide feedback on product strategy. In this role, you will continue to build the Stadia ecosystem by being a liaison between multiple stakeholders.</p><p>Stadia is Google’s cloud-based gaming platform, designed for everyone to play games on devices they already own. Custom built hardware, cutting-edge data centers and rapidly-evolving open source technology deliver a seamless gaming experience for players to discover, engage, and connect with their favorite games. Our team members are building the tools that will push game development by our partners to new levels, reducing the barrier to entry and bringing gaming to everyone.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT"],
+      "created": "2022-05-20T18:31:58.766Z",
+      "modified": "2022-05-20T18:31:58.766Z",
+      "publish_date": "2022-05-20T18:31:59.611Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor's degree or equivalent practical experience.</li>\n<li>Experience with C and C++, including debugging and compilation environments.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 45.5033141,
+          "lon": -73.5628767
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/130097825733059270",
+      "title": "Principal Engineer, Reliability, Application Modernization Platform, Google Cloud",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckeWFoGPm65K3HnlQNfzh5GBsReT1pf0rl4q2HGEc2cb7EjsAkXGnO09H-HPyy4FFuzw-55OQfkKojqApbUki-o-wgsT_06C6oY_72WNw8G8nbvUI_sedYoStHC1V_A%3D%3D_V2&jobTitle=Principal+Engineer&loc=US",
+      "responsibilities": "<ul>\n<li>Lead a distributed team of engineers across the SRE organization and Google Cloud Platform teams.\n</li>\n<li>Encourage and maintain engineering excellence on your team to build reliable distributed systems that our customers can build their business on. \n</li>\n<li>Partner with technical leaders within Google and the open source community, and contribute to product/project strategy, roadmap definition, and requirements-gathering.</li>\n<li>Develop design principles, set a uniform process for reviewing designs within software teams, and define standards for writing, sharing, and reviewing design documents. </li>\n<li>Provide domain knowledge and engineering insight to guide early designs, accelerate project decision-making, and maintain close oversight of technical execution.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>15 years of professional software development experience.</li>\n<li>Experience in technical leadership and setting technical direction for engineering projects.</li>\n<li>Experience architecting, designing, and developing distributed systems.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>PhD in Electrical Engineering, Computer Engineering, or Computer Science.\n</li>\n<li>Experience motivating others to act by creating a shared sense of purpose. </li>\n<li>Technical experience, with knowledge of the market and enterprise workloads. </li>\n<li>Ability to create a compelling vision for the future, communicate clearly, and have a collaborative leadership approach.</li>\n<li>Entrepreneurial and strategic mindset, with the ability to thrive at the intersection of technology and business, and the desire to propel the industry forward.</li>\n<li>Passion for delighting enterprise customers.\n</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Washington, USA",
+          "lat": 47.6492973,
+          "lon": -122.3505347,
+          "address_lines": ["Google Building Parkview, 601 N 34th St, Seattle, WA 98103, USA"],
+          "city": "Seattle",
+          "post_code": "98103",
+          "country": "WA",
+          "country_code": "US",
+          "is_remote": true
+        }
+      ],
+      "description": "<p>We are looking for a Principal Engineer to join Google Cloud's Application Modernization Platform (AMP) Site Reliability Engineering (SRE) organization. </p><p>\n\nIn this role, you will provide executive-level technical leadership for a large organization that is responsible for reliable operation, engineering, and evolution of some of the fastest growing and most strategic Google Cloud offerings. </p><p>\n\nAs Principal Engineer, you'll be a technical expert and an exceptional leader influencing projects and delivering a complex technical roadmap across multiple orgs/teams. Your role will be centered around technical leadership for Google Kubernetes Engine (GKE), the world's leading managed Kubernetes product, and its integration with related products and infrastructure such as GCE.</p><p>\n\nYou will create the reality of a stable and trustworthy cloud computing platform for a diverse pool of customers and workloads worldwide. You'll balance feature velocity with reliability with cost efficiency. You'll also partner with a wide and diverse array of teams working in the Cloud Compute space (e.g., SRE and Dev) to set the technical direction for Compute reliability.</p><p>\n\nAs a leader, you will constantly challenge our approach and status quo to elevate our platform reliability beyond our current capabilities. You'll contribute to our most complex technical projects and externally visible product decisions, using your technical acumen, problem-solving abilities, and good judgment to help build scalable and future-proof Google systems.</p><p>Google Cloud accelerates organizations’ ability to digitally transform their business with the best infrastructure, platform, industry solutions and expertise. We deliver enterprise-grade solutions that leverage Google’s cutting-edge technology – all on the cleanest cloud in the industry. Customers in more than 200 countries and territories turn to Google Cloud as their trusted partner to enable growth and solve their most critical business problems.</p>",
+      "education_levels": ["DOCTORAL_OR_EQUIVALENT"],
+      "created": "2022-05-20T18:32:05.537Z",
+      "modified": "2022-05-20T18:32:05.537Z",
+      "publish_date": "2022-05-20T18:32:05.706Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": "Note: Google’s hybrid workplace includes remote roles.<br><br><b>Remote location: Washington, USA.</b>",
+      "summary": "<ul>\n<li>15 years of professional software development experience.</li>\n<li>Experience in technical leadership and setting technical direction for engineering projects.</li>\n<li>Experience architecting, designing, and developing distributed systems.</li>\n</ul>",
+      "building_pins": [],
+      "has_remote": true
+    },
+    {
+      "id": "jobs/84113219360039622",
+      "title": "Staff Software Engineer, Functional Safety, Android Automotive",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2Fcka0RziqY93Rjm8xSCkmDhV_0CmKa0cqsBNfwaU0CqgAREjoAkXGnO3pdWfu91CO9WjU6t2PpXG08li4kN_MkpZc8MQfetasDWYdopG1i0TVNw1zzXvA2UHZ2gNhm_V2&jobTitle=Staff+Software+Engineer&loc=US",
+      "responsibilities": "<ul>\n<li>Collaborate with our product, engineering, and external safety consultants to create and review new design documents, requirements, and test plans.</li>\n<li>Create implementation software in MISRA C, and support tooling.</li>\n<li>Work with OEM teams to integrate our software into their vehicles, and to ensure that their safety goals are met by our requirements.</li>\n<li>Support other teams at Google who are developing applications for cars that present safety critical information to drivers.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree in Computer Science or related technical field, or equivalent practical experience.\n</li>\n<li>8 years of experience in software development, and with data structures/algorithms</li>\n<li>5 years of experience testing and launching software products, and 3 years of experience with software design and architecture</li>\n<li>Experience with system software development in C.<br></li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master's degree or PhD in Engineering, Computer Science, or a related technical field</li>\n<li>5 years of experience working with embedded operating systems\n</li>\n<li>3 years of experience in a technical leadership role leading project teams and setting technical direction</li>\n<li>3 years of experience working in a complex, matrixed organization involving cross-functional and/or cross-business projects</li>\n<li>Experience with safety critical processes (e.g., defense, medical, automotive)</li>\n<li>Knowledge of embedded systems (e.g., embedded Linux, QNX, GHS Integrity, etc.) and hardware accelerated graphics interfaces</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Detroit, MI, USA",
+          "lat": 42.340458,
+          "lon": -83.05449399999999,
+          "address_lines": ["52 Henry St, Detroit, MI 48201, USA"],
+          "city": "Detroit",
+          "post_code": "48201",
+          "country": "MI",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Ann Arbor, MI, USA",
+          "lat": 42.2808256,
+          "lon": -83.7430378,
+          "address_lines": ["Ann Arbor, MI, USA"],
+          "city": "Ann Arbor",
+          "post_code": "",
+          "country": "MI",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Michigan, USA",
+          "lat": 42.340458,
+          "lon": -83.05449399999999,
+          "address_lines": ["52 Henry St, Detroit, MI 48201, USA"],
+          "city": "Detroit",
+          "post_code": "48201",
+          "country": "MI",
+          "country_code": "US",
+          "is_remote": true
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>\n<p>Our team supports Androids growth by creating software that guarantees the display of safety critical elements. We want original equipment manufacturers (OEMs) to create safety relevant displays using tools and technologies that they use today to create Android applications, which we're accomplishing by creating safety certified software and tools that meet automotive OEMs safety goals and work with Android Automotive OS.</p><p>\n\nIn this role, you will help create requirements and tests, and then implement software.</p><p>Automotive industry executives say there will be more change in their business in the next 5 years than they have seen in the last 50 years.<br><br>The Android Auto team collaborate with vehicle manufacturers to develop and deliver on this massive opportunity, building on a proven embedded platform to create a leading Assistant-powered, navigation, entertainment, and communication vehicle system, which will be delivered to specialized people-moving devices.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-05-20T18:32:06.375Z",
+      "modified": "2022-05-20T18:32:06.375Z",
+      "publish_date": "2022-05-20T18:32:07.548Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 3,
+      "additional_instructions": "Note: Google’s hybrid workplace includes remote and in-office roles. By applying to this position you will have an opportunity to share your preferred working location from the following:<br><br><b>In-office locations: Detroit, MI, USA; Ann Arbor, MI, USA.</b><br><b>Remote location(s): Michigan, USA.</b>",
+      "summary": "<ul>\n<li>Bachelor's degree in Computer Science or related technical field, or equivalent practical experience.\n</li>\n<li>8 years of experience in software development, and with data structures/algorithms</li>\n<li>5 years of experience testing and launching software products, and 3 years of experience with software design and architecture</li>\n<li>Experience with system software development in C.<br></li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 42.3061455,
+          "lon": -83.71427371
+        },
+        {
+          "lat": 42.34046,
+          "lon": -83.054491
+        }
+      ],
+      "has_remote": true
+    },
+    {
+      "id": "jobs/125084975163679430",
+      "title": "Software Engineer III, Google Photos",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckYoGXrd-u9brKDwr1duMJ-xzf4Wc3tCaK5_Tql04N8ryEjsARYnzBUsMNxpnXxGMjb8zKTZ05jJJL7snEpgAYEI8VNe1_BgIbjWN9pRE8a5fWwbgeh-oFUQxmC3mTw%3D%3D_V2&jobTitle=Software+Engineer+III&loc=US",
+      "responsibilities": "<ul>\n<li>Write product or system development code.</li>\n<li>Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.</li>\n<li>Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).</li>\n<li>Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.</li>\n<li>Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor’s degree or equivalent practical experience.</li>\n<li>2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n</li>\n<li>2 years of experience with data structures or algorithms.\n</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master's degree or PhD in Computer Science or related technical fields.</li>\n<li>Experience developing accessible technologies.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.4238808,
+          "lon": -122.0916446,
+          "address_lines": ["Google Building GWC1, 2025 Garcia Ave, Mountain View, CA 94043, USA"],
+          "city": "Mountain View",
+          "post_code": "94043",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>\n<p>With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.\n</p><p>Google Photos is a photo sharing and storage service developed by Google. Photos is one of the most sought after products at Google and is looking for both client-side (web and mobile), with server-side (search, storage, serving) and machine intelligence (learning, computer vision) Software Engineers. We are dedicated to making Google experiences centered around the user.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-03-11T11:36:50.377Z",
+      "modified": "2022-05-20T18:32:10.821Z",
+      "publish_date": "2022-05-20T18:32:10.866Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor’s degree or equivalent practical experience.</li>\n<li>2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n</li>\n<li>2 years of experience with data structures or algorithms.\n</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.418303,
+          "lon": -122.073345
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/126618952261345990",
+      "title": "Senior Software Engineer, Geo",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckZDGr1C5r__eXb45jtPeWk-vepTjhxRU24Cskrhkx6FrEjsARYnzBdYqB5OdCjuNCQHJjg6eTjbvIe-OMrvaI6JHFD8fAtVjJY2A52UJCPayIbBHiY4IIYCuB6PVEg%3D%3D_V2&jobTitle=Senior+Software+Engineer&loc=US",
+      "responsibilities": "<ul>\n<li>Write and test product or system development code.</li>\n<li>Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.\n</li>\n<li>Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).</li>\n<li>Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.\n</li>\n<li>Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor’s degree or equivalent practical experience.\n</li>\n<li>5 years of experience with software development in one or more programming languages, and with data structures/algorithms.</li>\n<li>3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.\n</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master's degree or PhD in Computer Science or related technical field.\n</li>\n<li>1 year of experience in a technical leadership role.\n</li>\n<li>Experience developing accessible technologies.\n</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Seattle, WA, USA",
+          "lat": 47.6492973,
+          "lon": -122.3505347,
+          "address_lines": ["Google Building Parkview, 601 N 34th St, Seattle, WA 98103, USA"],
+          "city": "Seattle",
+          "post_code": "98103",
+          "country": "WA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Boulder, CO, USA",
+          "lat": 40.0149856,
+          "lon": -105.2705456,
+          "address_lines": ["Boulder, CO, USA"],
+          "city": "Boulder",
+          "post_code": "",
+          "country": "CO",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.3860517,
+          "lon": -122.0838511,
+          "address_lines": ["Mountain View, CA, USA"],
+          "city": "Mountain View",
+          "post_code": "",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Cambridge, MA, USA",
+          "lat": 42.3736158,
+          "lon": -71.10973349999999,
+          "address_lines": ["Cambridge, MA, USA"],
+          "city": "Cambridge",
+          "post_code": "",
+          "country": "MA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "New York, NY, USA",
+          "lat": 40.7127753,
+          "lon": -74.0059728,
+          "address_lines": ["New York, NY, USA"],
+          "city": "New York",
+          "post_code": "",
+          "country": "NY",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "United States",
+          "lat": 37.09024,
+          "lon": -95.712891,
+          "address_lines": ["United States"],
+          "city": null,
+          "post_code": "",
+          "country": null,
+          "country_code": "US",
+          "is_remote": true
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>\n<p>With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.\n</p><p>The Geo team is focused on building the most accurate, comprehensive, and useful maps for our users, through products like Maps, Earth, Street View, Google Maps Platform, and more. Every month, more than a billion people rely on Maps services to explore the world and navigate their daily lives.<br><br>The Geo team also enables developers to use the power of Google Maps platforms to enhance their apps and websites. As they plot a course for the future of mapping, they are solving complex computer science problems, designing beautiful and intuitive product experiences, and improving our understanding of the real world.</p>\n<p><b>Additional Information</b>\n<br>(Colorado only*) Minimum salary range between  $120,000 - $129,000 + bonus + equity + benefits.\n<br>*Note: Disclosure as required by sb19-085 (8-5-20) of the minimum salary compensation range for this role when being hired into our offices in Colorado.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-03-14T15:32:11.244Z",
+      "modified": "2022-05-20T18:32:09.812Z",
+      "publish_date": "2022-05-20T18:32:10.819Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 6,
+      "additional_instructions": "Note: Google’s hybrid workplace includes remote and in-office roles. By applying to this position you will have an opportunity to share your preferred working location from the following:<br><br><b>In-office locations: Seattle, WA, USA; Boulder, CO, USA; Mountain View, CA, USA; Cambridge, MA, USA; New York, NY, USA.</b><br><b>Remote location(s): United States.</b>",
+      "summary": "<ul>\n<li>Bachelor’s degree or equivalent practical experience.\n</li>\n<li>5 years of experience with software development in one or more programming languages, and with data structures/algorithms.</li>\n<li>3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.\n</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 40.7422425,
+          "lon": -74.0070905
+        },
+        {
+          "lat": 47.625232,
+          "lon": -122.335655
+        }
+      ],
+      "has_remote": true
+    },
+    {
+      "id": "jobs/85811188484448966",
+      "title": "Software Engineer III, Infrastructure, Google Ads",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckaFecZCzBN6EWW8iRA_JYPemGrUgw9xbikZrYAKyq-90EjsAkXGnOxEDEvcGSpHJjziBXFulmAEsP888nqeMUstHZl8wDUi83tjeRh5IdBYteF85emw6KqRX6jYRgg%3D%3D_V2&jobTitle=Software+Engineer+III&loc=US",
+      "responsibilities": "<ul>\n<li>Write product or system development code.</li>\n<li>Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.</li>\n<li>Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).</li>\n<li>Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.</li>\n<li>Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor’s degree or equivalent practical experience.</li>\n<li>2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n</li>\n<li>2 years of experience with data structures or algorithms in either an academic or industry setting.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master's degree or PhD in Computer Science or related technical fields.</li>\n<li>2 years of experience building and developing large-scale infrastructure, distributed systems or networks, and/or experience with compute technologies, storage, and/or hardware architecture. </li>\n<li>Experience developing accessible technologies.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.4238808,
+          "lon": -122.0916446,
+          "address_lines": ["Google Building GWC1, 2025 Garcia Ave, Mountain View, CA 94043, USA"],
+          "city": "Mountain View",
+          "post_code": "94043",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "Los Angeles, CA, USA",
+          "lat": 34.0522342,
+          "lon": -118.2436849,
+          "address_lines": ["Los Angeles, CA, USA"],
+          "city": "Los Angeles",
+          "post_code": "",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>\n<p>With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.\n</p><p>Google is an engineering company at heart. We hire people with a broad set of technical skills who are ready to take on some of technology's greatest challenges and make an impact on users around the world. At Google, engineers not only revolutionize search, they routinely work on scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, social to local, Google engineers are changing the world one technological achievement after another.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-05-11T17:31:49.516Z",
+      "modified": "2022-05-20T18:32:08.825Z",
+      "publish_date": "2022-05-20T18:32:08.965Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 2,
+      "additional_instructions": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <b>Mountain View, CA, USA; Los Angeles, CA, USA</b>.",
+      "summary": "<ul>\n<li>Bachelor’s degree or equivalent practical experience.</li>\n<li>2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n</li>\n<li>2 years of experience with data structures or algorithms in either an academic or industry setting.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.422509,
+          "lon": -122.08555
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/141919774754906822",
+      "title": "Head of Pixel, Product Planning and Launch",
+      "categories": ["BUSINESS_STRATEGY", "PRODUCT_SUPPORT", "PROGRAM_MANAGEMENT"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2Fckb4imjPIJPg0VbGA4PKN1rmBvPmapLnczf93SUfrjvbKEjsAkXGnO3eslysBkg2aLnrN7Jl9uiUspV1L_CG4mGmizveJTQDSDjGISiO-f66EQEAEOypWuyQ8PtQzcw%3D%3D_V2&jobTitle=Head+of+Pixel&loc=JP",
+      "responsibilities": "<ul>\n<li>Lead the team responsible  for Product Planning and Launch for Pixel products within Asia Pacific, including regional product planning and launch strategy.</li>\n<li>Drive the development of strategies and activities that affect multiple cross-functional stakeholder groups.</li>\n<li>Own the launch of Pixel products across APAC, leading across Product, Go-To-Market, Partnerships, Marketing, and Operations activities. </li>\n<li>Coordinate with global, local, and cross-functional Program Managers to achieve global alignment for the Product team. </li>\n<li>Evaluate methods across geographies and publish accepted methods and best practices in order to build global process and product consistency.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>15 years of business experience.</li>\n<li>5 years of experience working cross-functionally with stakeholders that are geographically dispersed.</li>\n<li>Experience with consumer electronics and related products/technologies.</li>\n<li>Experience in leadership and organizational management. </li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>MBA or equivalent practical experience. </li>\n<li>Experience in project management and with smartphone projects. </li>\n<li>Understanding of product-related technology and commercial strategy.</li>\n<li>Ability to take initiative, communicate with executive management at all levels, and lead/manage multiple time-sensitive projects.</li>\n<li>Excellent communication and collaborative skills and business judgment. </li>\n<li>Ability to speak and write in English and Japanese fluently to engage and support English and Japanese speaking clients.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Tokyo, Japan",
+          "lat": 35.6761919,
+          "lon": 139.6503106,
+          "address_lines": ["Tokyo, Japan"],
+          "city": null,
+          "post_code": "",
+          "country": "Tokyo",
+          "country_code": "JP",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Google's line of products and services to our clients never stops growing. The Partnerships Development team is responsible for seeking and exploring new opportunities with Google's partners. Armed with your business acumen and extensive product knowledge, you are right on the front line of interacting with our partners, and helping them find ways to grow using Google's newest product offerings. Your knowledge of relevant verticals and relationships with key industry players will help shape our great applications and content for products such as YouTube, Google TV and Commerce.</p>\n\n<p>Our Device and Services Organization (DSPA) researches, designs, and develops technologies and hardware to make our users’ interaction with computing faster, more powerful, and seamless. </p>\n\n<p>In this role, you will identify, shape, lead, and monitor strategic initiatives central to driving the Pixel business forward in APAC. You will manage detail, while planning and executing aspects of business in a fast-paced environment.</p><p>Google's mission is to organize the world's information and make it universally accessible and useful. Our Hardware team researches, designs, and develops new technologies and hardware to make our user's interaction with computing faster, more powerful, and seamless. Whether finding new ways to capture and sense the world around us, advancing form factors, or improving interaction methods, our Hardware team is making people's lives better through technology.</p>",
+      "education_levels": ["MASTERS_OR_EQUIVALENT"],
+      "created": "2022-05-20T18:32:00.581Z",
+      "modified": "2022-05-20T18:32:00.581Z",
+      "publish_date": "2022-05-20T18:32:00.836Z",
+      "application_instruction": "<p>Google welcomes people with disabilities.</p>",
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>15 years of business experience.</li>\n<li>5 years of experience working cross-functionally with stakeholders that are geographically dispersed.</li>\n<li>Experience with consumer electronics and related products/technologies.</li>\n<li>Experience in leadership and organizational management. </li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 35.6572570198,
+          "lon": 139.702793508
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/103832588889531078",
+      "title": "Silicon Failure Analysis Engineer, SoC",
+      "categories": ["HARDWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckWtt8wLpjJCDoQxCdd93tmltR0Wps-ZcO2Mi3DULIsFjEjsAkXGnO2UecA-VDENJ5dG7LhWe1z68Yjo8eDKXE01EHPJQEa_QNONUUcx7EvuOPEWjvWz_4mJW4M1-BA%3D%3D_V2&jobTitle=Silicon+Failure+Analysis+Engineer&loc=US",
+      "responsibilities": "<ul>\n<li>Drive yield, reliability, and Return Materials/Merchandise Authorization related FA with vendor lab.</li>\n<li>Define detailed FA path and make recommendations with clear, concise, and professional documentation including comprehensive FA reports.</li>\n<li>Drive fault isolation. Utilize architecture, logic, circuit design, test, and diagnosis tools to analyze and localize fail circuits.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree in Electrical, Electronic, or Computer Engineering, a related field or equivalent practical experience.</li>\n<li>10 years of experience in SoC Failure Analysis (FA).</li>\n<li>Experience with Failure Analysis (FA) equipment.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Experience implementing end-to-end Failure Analysis solutions.</li>\n<li>Knowledge of hardware including various ATE/SLT platforms and measurement equipment.</li>\n<li>Familiarity with Windows, Linux, gSuites, and Android systems.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.4238808,
+          "lon": -122.0916446,
+          "address_lines": ["Google Building GWC1, 2025 Garcia Ave, Mountain View, CA 94043, USA"],
+          "city": "Mountain View",
+          "post_code": "94043",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "San Diego, CA, USA",
+          "lat": 32.715738,
+          "lon": -117.1610838,
+          "address_lines": ["San Diego, CA, USA"],
+          "city": "San Diego",
+          "post_code": "",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Our computational challenges are so big, complex and unique we can't just purchase off-the-shelf hardware, we've got to make it ourselves. Your team designs and builds the hardware, software and networking technologies that power all of Google's services. As a Hardware Engineer, you design and build the systems that are the heart of the world's largest and most powerful computing infrastructure. You develop from the lowest levels of circuit design to large system design and see those systems all the way through to high volume manufacturing. Your work has the potential to shape the machinery that goes into our cutting-edge data centers affecting millions of Google users.</p>\n<p>As a Silicon Failure Analysis Engineer, you'll help integrate SoC technologies into mobile phones, tablets, and laptops. You'll  facilitate failure analysis of SoC to validate its performance, screen out bad devices.</p>\n\n<p>In this role, you will be responsible for all aspects of failure analysis with respect to Silicon Quality, Reliability and Yield Improvement, and Engineering activities. You will work with SoC design, test, product and vendor lab to coordinate end-to-end failure analysis for yield, reliability, and field failures including 3D X-RAY/material characterization, re-ball, Automatic Test Equipment (ATE)/ System Level Test (SLT)/functional checks, SoC level electrical, and physical failure analysis. </p><p>Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences. We research, design, and develop new technologies and hardware to make computing faster, seamless, and more powerful. We aim to make people's lives better through technology.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT"],
+      "created": "2022-05-20T18:32:02.916Z",
+      "modified": "2022-05-20T18:32:02.916Z",
+      "publish_date": "2022-05-20T18:32:03.136Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 2,
+      "additional_instructions": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <b>Mountain View, CA, USA; San Diego, CA, USA</b>.",
+      "summary": "<ul>\n<li>Bachelor's degree in Electrical, Electronic, or Computer Engineering, a related field or equivalent practical experience.</li>\n<li>10 years of experience in SoC Failure Analysis (FA).</li>\n<li>Experience with Failure Analysis (FA) equipment.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.422525,
+          "lon": -122.0756
+        },
+        {
+          "lat": 32.9087754,
+          "lon": -117.1805474
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/80979858181497542",
+      "title": "Senior Staff Software Engineer, Machine Learning, Core",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckUthY5DP1qWLBSCKoEqS5qjuTf3GJHsJ2mH_zLkaRc8DEjsAkXGnOxufkufZ63-dw0AD7Ppw501bKkfQ65s6L5ori7xbabkZxCkK0BPZJXcOJRkyRZPaOcPsn8u8AQ%3D%3D_V2&jobTitle=Senior+Staff+Software+Engineer&loc=US",
+      "responsibilities": "<ul>\n<li>Provide technical leadership on high-impact projects.</li>\n<li>Influence and coach a distributed team of engineers.</li>\n<li>Facilitate alignment and clarity across teams on goals, outcomes, and timelines.</li>\n<li>Manage project priorities, deadlines, and deliverables.</li>\n<li>Design, develop, test, deploy, maintain, and enhance large scale software solutions.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree or equivalent practical experience.\n</li>\n<li>8 years of experience in software development, and with data structures/algorithms.\n</li>\n<li>5 years of experience with design and architecture; and testing/launching software products.\n</li>\n<li>7 years of experience with machine learning algorithms and tools (e.g., TensorFlow), artificial intelligence, deep learning and/or natural language processing.\n</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master’s degree or PhD in Engineering, Computer Science, or a related technical field.</li>\n<li>5 years of experience in a technical leadership role leading project teams and setting technical direction.</li>\n<li>3 years of experience working in a complex, matrixed organization involving cross-functional, and/or cross-business projects.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Sunnyvale, CA, USA",
+          "lat": 37.4030338,
+          "lon": -122.0325786,
+          "address_lines": ["Google Building TC3, 805 11th Ave, Sunnyvale, CA 94089, USA"],
+          "city": "Sunnyvale",
+          "post_code": "94089",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.<br><br>With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.<p>The Core team builds the technical foundation behind Google’s flagship products. We are owners and advocates for the underlying design elements, developer platforms, product components, and infrastructure at Google. These are the essential building blocks for excellent, safe, and coherent experiences for our users and drive the pace of innovation for every developer. We look across Google’s products to build central solutions, break down technical barriers and strengthen existing systems. As the Core team, we have a mandate and a unique opportunity to impact important technical decisions across the company.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-05-20T18:31:59.369Z",
+      "modified": "2022-05-20T18:31:59.369Z",
+      "publish_date": "2022-05-20T18:31:59.600Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor's degree or equivalent practical experience.\n</li>\n<li>8 years of experience in software development, and with data structures/algorithms.\n</li>\n<li>5 years of experience with design and architecture; and testing/launching software products.\n</li>\n<li>7 years of experience with machine learning algorithms and tools (e.g., TensorFlow), artificial intelligence, deep learning and/or natural language processing.\n</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.410086,
+          "lon": -122.022281
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/77411461552317126",
+      "title": "Software Engineer III, AR",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckWhgxENKn0ggu17KkavCWvjCBqX6wR-RjdWgweHYSJ1GEjsARYnzBaMbhiwbey_yYL6ypxoOeX0yawho0KYksNAiF6U6YN6m77r18fhmaOFfWBBodqQDH0jHs7jkWA%3D%3D_V2&jobTitle=Software+Engineer+III&loc=US",
+      "responsibilities": "<ul>\n<li>Write product or system development code.</li>\n<li>Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.</li>\n<li>Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).</li>\n<li>Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.</li>\n<li>Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor’s degree or equivalent practical experience.</li>\n<li>2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n</li>\n<li>2 years of experience with data structures or algorithms.\n</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Master's degree or PhD in Computer Science or related technical fields.</li>\n<li>Experience developing accessible technologies.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.4238808,
+          "lon": -122.0916446,
+          "address_lines": ["Google Building GWC1, 2025 Garcia Ave, Mountain View, CA 94043, USA"],
+          "city": "Mountain View",
+          "post_code": "94043",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        },
+        {
+          "display": "United States",
+          "lat": 37.09024,
+          "lon": -95.712891,
+          "address_lines": ["United States"],
+          "city": null,
+          "post_code": "",
+          "country": null,
+          "country_code": "US",
+          "is_remote": true
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>\n<p>With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.\n</p><p>The Google Augmented Reality team is a diverse group of experts tasked with building the foundations for great immersive computing and building helpful, delightful user experiences. We're focused on making immersive computing accessible to billions of people through mobile devices, and our scope continues to grow and evolve.</p>\n\n<p> Additional Information\n\n(Colorado only*) Minimum salary range between $142,000 - $153,000 + bonus + equity + benefits.\n\n*Note: Disclosure as required by sb19-085 (8-5-20) of the minimum salary compensation range for this role when being hired into our offices in Colorado.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-02-11T02:01:38.080Z",
+      "modified": "2022-05-20T18:32:08.515Z",
+      "publish_date": "2022-05-20T18:32:08.643Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 2,
+      "additional_instructions": "Note: Google’s hybrid workplace includes remote and in-office roles. By applying to this position you will have an opportunity to share your preferred working location from the following:<br><br><b>In-office locations: Mountain View, CA, USA.</b><br><b>Remote location(s): United States.</b>",
+      "summary": "<ul>\n<li>Bachelor’s degree or equivalent practical experience.</li>\n<li>2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.\n</li>\n<li>2 years of experience with data structures or algorithms.\n</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.417507,
+          "lon": -122.079756
+        },
+        {
+          "lat": 47.625232,
+          "lon": -122.335655
+        }
+      ],
+      "has_remote": true
+    },
+    {
+      "id": "jobs/126480003828196038",
+      "title": "Technical Solutions Manager (Polish, English)",
+      "categories": ["SALES", "TECHNICAL_SOLUTIONS"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckcSiXRPA1cKIVKYWXMFwEYfUVvbWgBepKu0S4_79vGkpEjsARYnzBQxYA2hGB0ybgksZ6WqY531Ue9lY_6EW8I-inFoTSn6ARjBy6jH488_jclZTp5b3Aj0TemJ21Q%3D%3D_V2&jobTitle=Technical+Solutions+Manager&loc=IE",
+      "responsibilities": "<ul>\n<li>Deliver high quality technical solutions to customer problems, troubleshooting issues, providing technical guidance, and performing implementation reviews.</li>\n<li>Advocate product features and ensure the resolution of technical challenges.</li>\n<li>Work to improve product offerings by providing client feedback on features to Product Management and Engineering teams.</li>\n<li>Develop scalable solutions to business problems (e.g., streamline processes, develop automated solutions, etc.).</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Experience in web technologies such as CSS, HTML, HTTP, JavaScript/AJAX, and XML.</li>\n<li>Experience with coding in languages (e.g., Python or Java), and SQL.</li>\n<li>Customer-facing experience in sales, sales engineering, consulting, or related function.</li>\n<li> Ability to speak and write in English and Polish fluently.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Ability to collaborate and work across geographically dispersed functions.</li>\n<li>Data analysis and data-driven decision-making skills.</li>\n<li>Excellent written and verbal business communication and presentation skills.</li>\n<li>Excellent project management skills and attention to detail.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Dublin, Ireland",
+          "lat": 53.33837,
+          "lon": -6.2395645,
+          "address_lines": ["Clanwilliam Pl, Dublin, Ireland"],
+          "city": "Dublin",
+          "post_code": "",
+          "country": "D",
+          "country_code": "IE",
+          "is_remote": false
+        },
+        {
+          "display": "London, UK",
+          "lat": 51.5072178,
+          "lon": -0.1275862,
+          "address_lines": ["London, UK"],
+          "city": "London",
+          "post_code": "",
+          "country": "England",
+          "country_code": "GB",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>gTech Global Customer Care (gGCC) is a solution-generating effort that helps our sales teams and advertisers. These solutions need to be scalable to support millions of customers worldwide. In addition to troubleshooting on the customer side, we work with Sales, Product, and Engineering teams within Google to develop better tools and services and improve our products based on the evolving needs of our users. As a cross-functional and global team, it's our job to help keep the lights on and the ads fresh.</p>\n\n<p>As a Technical Solutions Manager, your primary responsibility will be to help customers of Google Ad Manager with complex technical troubleshooting. Through your work with customers and the product, you'll identify opportunities for process and product improvements. You will use these insights to propose and work on technical or non-technical projects to improve our operations. </p>\n\n<p>In this role, you will be part of Global Customer Care, a team who supports customers globally. In addition to troubleshooting with customers, you will work with Sales, Product, and Engineering teams within Google to develop better tools and services both for our team and for our customers.</p><p>Google creates products and services that make the world a better place, and gTech’s role is to help bring them to life. Our teams of trusted advisors support customers globally. Our solutions are rooted in our technical skill, product expertise, and a thorough understanding of our customers’ complex needs. Whether the answer is a bespoke solution to solve a unique problem, or a new tool that can scale across Google, everything we do aims to ensure our customers benefit from the full potential of Google products.<br><br>To learn more about gTech, check out our <a href=\"https://www.youtube.com/watch?v=HcjR6ZngQcw\">video</a>.</p>",
+      "education_levels": [],
+      "created": "2022-01-21T15:01:35.893Z",
+      "modified": "2022-05-20T18:02:16.449Z",
+      "publish_date": "2022-05-20T18:02:16.898Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 2,
+      "additional_instructions": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <b>Dublin, Ireland; London, UK</b>.",
+      "summary": "<ul>\n<li>Experience in web technologies such as CSS, HTML, HTTP, JavaScript/AJAX, and XML.</li>\n<li>Experience with coding in languages (e.g., Python or Java), and SQL.</li>\n<li>Customer-facing experience in sales, sales engineering, consulting, or related function.</li>\n<li> Ability to speak and write in English and Polish fluently.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 51.51609838,
+          "lon": -0.127086005
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/114317725355909830",
+      "title": "Application Development Manager, Google Cloud",
+      "categories": ["TECHNICAL_SOLUTIONS"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckYI4NachEYt4a3Igvo9qqcC-qBCaAx8yBGL5YSSiFMjjEjsARYnzBYUE6vWoV2094LH0nPxVZfi1zPgmPwuT0iiqXZTIZIU7AkOnQQQx4t6GwaMkValZEczYXi2yYw%3D%3D_V2&jobTitle=Application+Development+Manager&loc=IN",
+      "responsibilities": "<ul>\n<li>Work with customer technical leads, customer executives, and partners to manage and deliver successful implementations of cloud solutions; become an advisor to decision makers throughout the engagement.</li>\n<li>Lead the program management of multi-functional, large Google Cloud Professional Services projects, covering program planning, delivery assurance and verification, tracking and reporting, and risk and mitigation planning.</li>\n<li>Manage the risks, issues, and actions for the account(s) and regularly track them to meet the expected outcomes and timelines; build mitigation plans as the program evolves.</li>\n<li>Interact with sales, partners, and customer technical stakeholders to manage project scope, priorities, deliverables, risks/issues, and timelines for successful customer outcomes.</li>\n<li>Manage the development and deployment of cloud based distributed Application solutions according to complex customer requirements and implementation of the best practices.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>3 years of experience delivering application modernization projects to global organizations</li>\n<li>Experience in program management, client service, and/or management consulting</li>\n<li>Ability to travel up to 25% of the time</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>MBA or Master's degree in Computer Science or a related technical field</li>\n<li>Experience in customer-facing app modernization, including discovery, assessment, planning, execution, and operations</li>\n<li>Experience working with a cross-functional, geographically dispersed team and customer base and collaborating with channel partners, systems integrators, and third-party developers to deliver high-impact solutions</li>\n<li>Experience leveraging quantitative assessment and analysis for decision-making and prioritization</li>\n<li>Ability to quickly learn, understand, and work with new and emerging technologies, methodologies, and solutions in the cloud/IT technology space</li>\n<li>Understanding of the broader cloud marketplace and the differentiators of various cloud offerings</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Gurugram, Haryana, India",
+          "lat": 28.460632,
+          "lon": 77.0484409,
+          "address_lines": [
+            "IN-GUR-SIGA, 691, Delhi - Jaipur Expy, Sector 15 Part 2, Sector 15, Gurugram, Haryana 122001, India"
+          ],
+          "city": "Gurugram",
+          "post_code": "122001",
+          "country": "HR",
+          "country_code": "IN",
+          "is_remote": false
+        },
+        {
+          "display": "Hyderabad, Telangana, India",
+          "lat": 17.385044,
+          "lon": 78.486671,
+          "address_lines": ["Hyderabad, Telangana, India"],
+          "city": "Hyderabad",
+          "post_code": "",
+          "country": "TG",
+          "country_code": "IN",
+          "is_remote": false
+        },
+        {
+          "display": "Mumbai, Maharashtra, India",
+          "lat": 19.0759837,
+          "lon": 72.8776559,
+          "address_lines": ["Mumbai, Maharashtra, India"],
+          "city": "Mumbai",
+          "post_code": "",
+          "country": "MH",
+          "country_code": "IN",
+          "is_remote": false
+        },
+        {
+          "display": "Bengaluru, Karnataka, India",
+          "lat": 12.9715987,
+          "lon": 77.5945627,
+          "address_lines": ["Bengaluru, Karnataka, India"],
+          "city": "Bengaluru",
+          "post_code": "",
+          "country": "KA",
+          "country_code": "IN",
+          "is_remote": false
+        },
+        {
+          "display": "Pune, Maharashtra, India",
+          "lat": 18.5204303,
+          "lon": 73.8567437,
+          "address_lines": ["Pune, Maharashtra, India"],
+          "city": "Pune",
+          "post_code": "",
+          "country": "MH",
+          "country_code": "IN",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware. Our teams are dedicated to helping our customers — developers, small and large businesses, educational institutions and government agencies — see the benefits of our technology come to life. As part of an entrepreneurial team in this rapidly growing business, you will play a key role in understanding the needs of our customers and help shape the future of businesses of all sizes use technology to connect with customers, employees and partners.</p>\n<p>As a Cloud Migration Consultant, you will specialize in the consulting, program management, governance, and orchestration of large scale cloud engagements. This will involve supporting both our customers and internal teams delivery and execution of our largest programs. You will bring expertise in planning and executing the governance of cloud adoption, IT transformation, or cloud migrations. You will utilize an understanding of both enterprise IT and cloud technologies.</p><p>Google Cloud provides organizations with leading infrastructure, platform capabilities and industry solutions. We deliver enterprise-grade cloud solutions that leverage Google’s cutting-edge technology to help companies operate more efficiently and adapt to changing needs, giving customers a foundation for the future. Customers in more than 150 countries turn to Google Cloud as their trusted partner to solve their most critical business problems.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT", "MASTERS_OR_EQUIVALENT"],
+      "created": "2022-01-11T14:31:09.868Z",
+      "modified": "2022-05-20T18:02:17.017Z",
+      "publish_date": "2022-05-20T18:02:17.536Z",
+      "application_instruction": "<p><b>For candidates interested in Pune: This role will be remote until May 2022 or when the Google office in Pune opens, (whichever is earlier). After this, you will be required to work from the Google Pune office. \n</b></p>",
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 5,
+      "additional_instructions": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: <b>Gurugram, Haryana, India; Hyderabad, Telangana, India; Mumbai, Maharashtra, India; Bengaluru, Karnataka, India; Pune, Maharashtra, India</b>.",
+      "summary": "<ul>\n<li>3 years of experience delivering application modernization projects to global organizations</li>\n<li>Experience in program management, client service, and/or management consulting</li>\n<li>Ability to travel up to 25% of the time</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 12.9820674,
+          "lon": 77.6986171
+        },
+        {
+          "lat": 28.460625,
+          "lon": 77.048332
+        },
+        {
+          "lat": 17.458461,
+          "lon": 78.372452
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/84411571410739910",
+      "title": "Technical Program Manager, Submarine Networks Construction",
+      "categories": ["DATA_CENTER_OPERATIONS", "PROGRAM_MANAGEMENT"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckdhwXGa_JNUsJ7bKP1SBoZVEI3zlW1AWmksi6S_vwnbYEjsAkXGnO_0-NaKtZMSbaY13F0byXJqQzwLDQIP287HwOSFx8hRmakYoXpqow-DKxK7V20mbPWfyxlcDLw%3D%3D_V2&jobTitle=Technical+Program+Manager&loc=SG",
+      "responsibilities": "<ul>\n<li>Communicate with internal business owners to collect drivers and deadlines for delivering submarine construction projects.</li>\n<li>Collaborate with partners, vendors, and internal stakeholders to drive the construction of submarine cable systems, including tendering process, selection of vendors, creation of plan of work, spent budget, and technical review of design, manufacturing, and installation plans.</li>\n<li>Ensure we are able to deliver the necessary assets and capacity in a timely and cost effective manner in order to land submarine cable systems.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>10 years of Technical Program Management experience working cross-functionally.</li>\n<li>8 years of experience in vendor management and vendor agreements.</li>\n<li>Experience in financial analysis specifically modeling, budgeting, and resource planning.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Advanced Degree in an engineering or other technical field.</li>\n<li>Understanding of telecommunications submarine cable fiber optic technical design and installation, including manufacturing process, quality assurance, marine best practices, and safety.</li>\n<li>Organizational, multitasking, and prioritization abilities with excellent attention to detail.</li>\n<li>Excellent verbal and written communication skills, and a data-driven approach to solving complex challenges.</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Singapore",
+          "lat": 1.352083,
+          "lon": 103.819836,
+          "address_lines": ["Singapore"],
+          "city": null,
+          "post_code": "",
+          "country": null,
+          "country_code": "SG",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Technical Program Manager at Google, you’ll use your technical expertise to lead complex, multi-disciplinary projects from start to finish. You’ll work with stakeholders to plan requirements, identify risks, manage project schedules, and communicate clearly with cross-functional partners across the company. You're equally comfortable explaining your team's analyses and recommendations to executives as you are discussing the technical tradeoffs in product development with engineers.</p><p>Our goal is to build a Google that looks like the world around us — and we want Googlers to stay and grow when they join us. As part of our efforts to build a Google for everyone, we build diversity, equity, and inclusion into our work and we aim to cultivate a sense of belonging throughout the company.</p>\n<p>In this role, you will drive fiber optic submarine cable projects for the Global Network Services team. You will use your understanding of the Google Network and your expertise in marine survey, marine installation, manufacturing, permitting, optical transport, outside plant fibers, and telecommunications industry best-practices to lead cross-functional teams in driving the genesis and completion of submarine cable projects.</p>",
+      "education_levels": ["MASTERS_OR_EQUIVALENT", "DOCTORAL_OR_EQUIVALENT"],
+      "created": "2022-05-20T18:02:15.663Z",
+      "modified": "2022-05-20T18:02:15.663Z",
+      "publish_date": "2022-05-20T18:02:16.061Z",
+      "application_instruction": "<p>Google will be prioritizing applicants who have a current right to work in Singapore, and do not require Google's sponsorship of a visa.</p>",
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>10 years of Technical Program Management experience working cross-functionally.</li>\n<li>8 years of experience in vendor management and vendor agreements.</li>\n<li>Experience in financial analysis specifically modeling, budgeting, and resource planning.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 1.276331,
+          "lon": 103.799774
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/86515064770568902",
+      "title": "Lead Partner Technology Manager, YouTube Music Publishing",
+      "categories": ["PARTNERSHIPS", "TECHNICAL_SOLUTIONS"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckY7RIR0Ii3762fsCk4iWgkhe_GL7Sw72wfZNoWEufQGYEjsARYnzBXQ-ynvnmHuTHsY1YTgTZlCJBUXr8tGimO9KULhfcyD1d6oYVMJ8XSsDvCdkEAx2wuvUkf0oeQ%3D%3D_V2&jobTitle=Lead+Partner+Technology+Manager&loc=ES",
+      "responsibilities": "<ul>\n<li>Manage a team of Product Technology Managers (PTMs) managing Music Publishing partners in EMEA. Inspire your team to own the technical solutions and foster a prototyping culture.</li>\n<li>Own the definition of the regional strategy and work closely with the global leads to shape the future of the Music Publishing operations.\n</li>\n<li>Own the technical relationship with our partners, guarantee the technical aspects of their integration by providing technical guidance and documentation, and work closely with the Business team to negotiate new agreements.</li>\n<li>Identify, drive, and optimize existing and new business opportunities, leveraging YouTube technologies through prototyping and innovation, and ensuring the prompt and proper resolution of technical challenges.</li>\n<li>Perform implementation reviews, advocate product features and internal tools, and improve product features by providing partner feedback to internal cross-functional teams.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree in Computer Science or equivalent practical experience.</li>\n<li>Experience negotiating and establishing agreements in digital music or media.</li>\n<li>Experience in music publishing or licensing music publishing rights for digital music, broadcast, internet businesses, sync rights, performance license/withdrawal, collection societies, and/or publisher/label relationships.</li>\n<li>Ability to speak and write in English fluently.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>MBA degree. \n</li>\n<li>Experience in business management.</li>\n<li>Experience with SQL, Go, and Python programming languages.</li>\n<li>Experience as a people manager.</li>\n<li>Experience in Music (e.g., discuss agreements or music licensing).</li>\n<li>Experience with internet products and technologies in either software engineering, product management, engineering program management, technical account management, sales engineering or a related field.</li>\n</ul>",
+      "company_id": "companies/ad872500-709d-4a93-97e3-76be227f77a1",
+      "company_name": "YouTube",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Madrid, Spain",
+          "lat": 40.4167754,
+          "lon": -3.7037902,
+          "address_lines": ["Madrid, Spain"],
+          "city": "Madrid",
+          "post_code": "",
+          "country": "MD",
+          "country_code": "ES",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>The Music Publishing Partner Technology Management team works with the Business Development team to license music rights through music publishers and collection societies. We are the bridge between Business, Product and Engineering, building and owning technical solutions to accelerate the launch of new products, grow the business of our partners, and enabling YouTube users to enjoy their music on YouTube.</p>\n<p>You will have a direct impact on a business enjoyed by millions of music lovers. You will be a technologist taking responsibility for the success of YouTube’s Music partnerships, leading and inspiring your team, owning technical deployments, optimizing implementations, driving new business opportunities, and seeking innovative solutions in the fluid work of digital music to build successful, long-term partnerships.</p>\n<p>You will have the opportunity to lead people, projects, and cross-functional teams and take initiative looking to solidify YouTube’s strategic partnerships with the traditional Music partners (e.g. pan-territorial music publishers) and the most successful media partners that have grown businesses almost exclusively on YouTube.</p><p>At YouTube, we believe that everyone deserves to have a voice, and that the world is a better place when we listen, share, and build community through our stories. We work together to give everyone the power to share their story, explore what they love, and connect with one another in the process. Working at the intersection of cutting-edge technology and boundless creativity, we move at the speed of culture with a shared goal to show people the world. We explore new ideas, solve real problems, and have fun — and we do it all together.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT", "MASTERS_OR_EQUIVALENT"],
+      "created": "2022-04-04T18:31:59.586Z",
+      "modified": "2022-05-20T17:32:05.839Z",
+      "publish_date": "2022-05-20T17:32:06.034Z",
+      "application_instruction": "A person with disabilities will be given preferential consideration per local regulations.",
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor's degree in Computer Science or equivalent practical experience.</li>\n<li>Experience negotiating and establishing agreements in digital music or media.</li>\n<li>Experience in music publishing or licensing music publishing rights for digital music, broadcast, internet businesses, sync rights, performance license/withdrawal, collection societies, and/or publisher/label relationships.</li>\n<li>Ability to speak and write in English fluently.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 40.45029472,
+          "lon": -3.693050009
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/102725346320622278",
+      "title": "Engineering Manager, Support Engineering, Google Fi",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckfgsDnhktgOYbFfaJTt1Fc7RAIE_paz_wKCNh4M4xo-3EjsAkXGnO9duEQZ50zBd8TQs1eSs5SKmDqeraxwztdH2k1ltgJoYthY9b_2hYmLodKRYJ5Wh2dnC_YCaZQ%3D%3D_V2&jobTitle=Engineering+Manager&loc=US",
+      "responsibilities": "<ul>\n<li>Lead a team that is responsible for Google Fi’s support engineering infrastructure, tools, processes, and product integration.</li>\n<li>Collaborate with Product, Support, Technical Program Managers, and other Engineering leads to define the vision, strategy, and roadmap for improving Support experience.</li>\n<li>Foster team culture that focuses on Engineering, Product, and Support excellence.</li>\n<li>Shape and drive long-term direction and strategy to improve Support in collaboration with other key stakeholders.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor's degree or equivalent practical experience.</li>\n<li>5 years of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).</li>\n<li>3 years of experience in a technical leadership role; overseeing projects, with 2 years of experience in a people management, supervision/team leadership role.</li>\n</ul><br><p>Preferred qualifications:</p><ul><li>Master's degree or PhD in Computer Science or related technical field.</li>\n<li>3 years of experience building and developing large-scale infrastructure and/or distributed systems.</li>\n<li>3 years of experience working in a complex, matrixed organization.</li>\n<li>Experience leading effective engineering teams in delivering scalable and robust mission-critical systems/infrastructure.</li>\n<li>Experience working with and managing external partners and/or customers. </li>\n<li>Experience collaborating across functions (e.g., PM, UX, Operations, Support).</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Mountain View, CA, USA",
+          "lat": 37.4238808,
+          "lon": -122.0916446,
+          "address_lines": ["Google Building GWC1, 2025 Garcia Ave, Mountain View, CA 94043, USA"],
+          "city": "Mountain View",
+          "post_code": "94043",
+          "country": "CA",
+          "country_code": "US",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Like Google's own ambitions, the work of a Software Engineer (SWE) goes way beyond just Search. SWE Managers have not only the technical expertise to take on and provide technical leadership to major projects, but also manage a team of engineers. You not only optimize your own code but make sure engineers are able to optimize theirs. As a SWE Manager you manage your project goals, contribute to product strategy and help develop your team. SWE teams work all across the company, in areas such as information retrieval, artificial intelligence, natural language processing, distributed computing, large-scale system design, networking, security, data compression, user interface design; the list goes on and is growing every day. Operating with scale and speed, our exceptional software engineers are just getting started -- and as a manager, you guide the way.</p>\n<p>As an Engineering Manager, you will balance both technical and business skills, and you'll gain a broad perspective of how product implementation impacts the customer experience. Additionally, you'll utilize both sets of skills to identify high impact projects and move them forward to help ensure that customers can get the most out of Google Fi.</p><p>Direct Channels &amp; Memberships’ mission is to transform the way devices and services come together, to offer our users a frictionless experience. That means building trusted subscription products and first-party retail channels that enable our users to find and engage with our devices, as well as help them stay connected, adapt to their needs and unlock more value over time.</p>",
+      "education_levels": [
+        "BACHELORS_OR_EQUIVALENT",
+        "MASTERS_OR_EQUIVALENT",
+        "DOCTORAL_OR_EQUIVALENT"
+      ],
+      "created": "2022-05-20T17:32:01.639Z",
+      "modified": "2022-05-20T17:32:01.639Z",
+      "publish_date": "2022-05-20T17:32:02.198Z",
+      "application_instruction": null,
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor's degree or equivalent practical experience.</li>\n<li>5 years of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).</li>\n<li>3 years of experience in a technical leadership role; overseeing projects, with 2 years of experience in a people management, supervision/team leadership role.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 37.4238808,
+          "lon": -122.0916446
+        }
+      ],
+      "has_remote": false
+    },
+    {
+      "id": "jobs/74448512151888582",
+      "title": "Software Engineer, Engineering Productivity, Silicon CAD",
+      "categories": ["SOFTWARE_ENGINEERING"],
+      "apply_url": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckYQE5cTVJLi41-80KJJpDfTsQ8-YRHZYj74HDvpUOgIEEjsAkXGnOy8UcT19pATeU4YZ-gY3mH0ORPn25AIQXx-jQ8DgKrBFCcIJLXhCogBVyjDbQw-2K3Ew1hsAfQ%3D%3D_V2&jobTitle=Software+Engineer&loc=TW",
+      "responsibilities": "<ul>\n<li>Work in a fast-paced environment aimed at delivering Google's hardware products on schedule by using Google Cloud Platform and internal infrastructure tools.</li>\n<li>Design new infrastructure solutions using Google-specific and industry standard building blocks.</li>\n<li>Provide support to end users in the use of the infrastructure.</li>\n<li>Work to audit and improve the security of our Google Cloud infrastructure.</li>\n</ul>",
+      "qualifications": "<p>Minimum qualifications:</p><ul>\n<li>Bachelor’s degree in Computer Science, Electrical Engineering, related technical field, or equivalent practical experience.</li>\n<li>1 year of experience in software engineering, and coding experience in Python.</li>\n</ul><br><p>Preferred qualifications:</p><ul>\n<li>Experience in Linux system, networking system, and security fundamentals.</li>\n<li>Experience maintaining RedHat-based Linux distributions at scale.</li>\n<li>Experience in Network Filesystems - NFS, Lustre, Cloud Filestore.</li>\n<li>Experience in Infrastucture-as-code, Configuration-as-code, or Cloud computing such as Google Compute Engine (GCE).</li>\n<li>Experience with revision control systems, such as Fig/Mercurial, Piper, and Git/Google open source.</li>\n<li>Experience in writing code to automate monitoring or data analysis (Python, Shell, JavaScript, Go, etc.).</li>\n</ul>",
+      "company_id": "companies/ebbbf0d1-8121-483c-8f99-ee92597591fc",
+      "company_name": "Google",
+      "language_code": "en-US",
+      "locations": [
+        {
+          "display": "Xindian District, New Taipei City, Taiwan",
+          "lat": 24.978282,
+          "lon": 121.5394822,
+          "address_lines": ["Xindian District, New Taipei City, Taiwan"],
+          "city": "Xindian District",
+          "post_code": "",
+          "country": "New Taipei City",
+          "country_code": "TW",
+          "is_remote": false
+        }
+      ],
+      "description": "<p>Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.</p>",
+      "education_levels": ["BACHELORS_OR_EQUIVALENT"],
+      "created": "2022-05-20T17:02:25.842Z",
+      "modified": "2022-05-20T17:02:25.842Z",
+      "publish_date": "2022-05-20T17:02:26.480Z",
+      "application_instruction": "<p>Google welcomes people with disabilities.</p>",
+      "eeo": "Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also <a href=\"https://careers.google.com/eeo/\">Google's EEO Policy</a> and <a href=\"/jobs/dist/legal/OFCCP_EEO_Post.pdf\">EEO is the Law.</a>  If you have a disability or special need that requires accommodation, please let us know by completing our <a href=\"https://goo.gl/forms/aBt6Pu71i1kzpLHe2\">Accommodations for Applicants form</a>.",
+      "locations_count": 1,
+      "additional_instructions": null,
+      "summary": "<ul>\n<li>Bachelor’s degree in Computer Science, Electrical Engineering, related technical field, or equivalent practical experience.</li>\n<li>1 year of experience in software engineering, and coding experience in Python.</li>\n</ul>",
+      "building_pins": [
+        {
+          "lat": 24.978282,
+          "lon": 121.5394822
+        }
+      ],
+      "has_remote": false
+    }
+  ]
+}
