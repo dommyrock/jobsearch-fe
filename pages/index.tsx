@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import SocialsContainer from "../components/common/SocialsContainer";
-import SearchContainer from '../components/search/SearchContainer';
+import SearchContainer from "../components/search/SearchContainer";
 
 const Home: NextPage = () => {
   return (
@@ -14,12 +14,19 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* place-items-center adds about 150px margin top*/}
-      <main className="grid grid-cols-2 grid-rows-2 gap-4 min-h-screen ">
-        <div className="col-span-2">
+      {/*V1[2cols] <main className="grid grid-cols-2 grid-rows-2 gap-4 min-h-screen"> */}
+
+      <main className="grid grid-cols-4 grid-rows-1 gap-4">
+        <div className="col-span-4">
           <SearchContainer />
         </div>
-        <div >
-          <h1>2nd row will be for nav,search results /jobs</h1> 
+        {/* Left sidebar */}
+        <div className="col-span-1 min-h-screen bg-slate-300 p-4">
+          <h1>sidebar </h1>
+        </div>
+        {/* JobPosts */}
+        <div className="col-span-3 min-h-screen bg-slate-800 p-4">
+          <h1 className="text-xl text-pink-500">search results /jobs</h1>
         </div>
       </main>
 
