@@ -1,5 +1,5 @@
 import React from "react";
-import { FreeTagInput, MultiselectInput } from "./MultiselectInputs";
+import { FreeTagInput, MultiselectCheckbox, MultiselectInput } from "./MultiselectInputs";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -30,27 +30,27 @@ const SearchContainer = () => {
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
       <div className="border border-gray-300 p-6 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg">
-        {/* <div className="flex flex-col md:flex-row"> [might reuse flex code only]<------------Top Row filters
-            <div className="">
-              <select className="border p-2 rounded">
-                <option>Round-trip</option>
-                <option>Missouri</option>
-                <option>texas</option>
-              </select>
-            </div>
-            <div className="pt-6 md:pt-0 md:pl-6">
-              <select className="border p-2 rounded">
-                <option>4 Passangers</option>
-                <option>3 Passangers</option>
-                <option>2 Passangers</option>
-              </select>
-            </div>
-            <div className="pt-6 md:pt-0 md:pl-6">
-              <select className="border p-2 rounded">
-                <option>Economy</option>
-              </select>
-            </div>
-          </div> */}
+        {/* <div className="flex flex-col md:flex-row">
+          <div className="pt-6 md:pt-0 md:pl-6">
+            <select className="border p-2 rounded">
+              <option>Round-trip</option>
+              <option>Missouri</option>
+              <option>texas</option>
+            </select>
+          </div>
+          <div className="pt-6 md:pt-0 md:pl-6">
+            <select className="border p-2 rounded">
+              <option>4 Passangers</option>
+              <option>3 Passangers</option>
+              <option>2 Passangers</option>
+            </select>
+          </div>
+          <div className="pt-6 md:pt-0 md:pl-6">
+            <select className="border p-2 rounded">
+              <option>Economy</option>
+            </select>
+          </div>
+        </div> */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <ThemeProvider theme={theme}>
             <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
@@ -60,7 +60,7 @@ const SearchContainer = () => {
                 label="Companies"
                 options={companies}
                 limitTags={3}
-                defaultValue={[0, 1]}//commonly searched companies
+                defaultValue={[0, 1]} //commonly searched companies
               />
             </div>
             <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
@@ -69,7 +69,7 @@ const SearchContainer = () => {
                 label="Location"
                 options={locations}
                 limitTags={2}
-                defaultValue={[0]}//all
+                defaultValue={[0]} //all
                 customChip={true}
               />
               <MultiselectInput
@@ -78,6 +78,13 @@ const SearchContainer = () => {
                 options={langs}
                 limitTags={2}
               />
+              {/* Add job type filtering when i complate initial search */}
+              {/* <MultiselectCheckbox
+                id="multi-checkbox"
+                label="Job Type"
+                options={jobType}
+                limitTags={2}
+              /> */}
             </div>
           </ThemeProvider>
         </div>
@@ -109,4 +116,10 @@ const langs = [
   { name: "GO", id: 2 },
   { name: "Java", id: 1 },
   { name: "javascript", id: 3 },
+];
+const jobType = [
+  { name: "Fulltime", id: 1 },
+  { name: "Part time", id: 2 },
+  { name: "Contractor", id: 3 },
+  { name: "Intern", id: 4 },
 ];
