@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { React,useEffect, memo,useRef, useState } from "react";
+import { React, useEffect, memo, useRef, useState } from "react";
 import {
   job_a_class,
   job_card_header,
@@ -13,7 +13,7 @@ import {
 
 const Post = memo(function Post({ job }) {
   const divRef = useRef(null);
-  const [buttons, setButtons] = useState("initial"); 
+  const [buttons, setButtons] = useState("initial");
   //TODO : For mobile view remove short description and just show title and locations
   //also copy Apply button = link inside this div if it exists for current job
 
@@ -40,15 +40,13 @@ const Post = memo(function Post({ job }) {
   useEffect(() => {
     //inject description into DOM(to be rendered as html, not string)
     divRef.current.innerHTML = job.summary;
-    let dat = job
-    debugger
   }, []);
 
   return (
     <li>
       <Link href="/job/[id]" as={`/job/${2222222222222222}`}>
-        <a className={job_a_class}>
-          <div itemScope="itemscope" itemType="http://schema.org/JobPosting">
+        <a className={job_a_class} target="_blank" rel="noopener noreferrer">
+          <div className="shadow-lg" itemScope="itemscope" itemType="http://schema.org/JobPosting">
             <div className={job_card_header}>
               <ul style={{ float: "right" }}>
                 <li>
