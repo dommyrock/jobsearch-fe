@@ -11,7 +11,7 @@ import {
   pre_card_content,
 } from "../../styles/job.module.css";
 
-const Post = memo(function Post({ job }) {
+const Post = ({ job })=> {
   const divRef = useRef(null);
   const [buttons, setButtons] = useState("initial");
   //TODO : For mobile view remove short description and just show title and locations
@@ -210,7 +210,7 @@ const Post = memo(function Post({ job }) {
       </Link>
     </li>
   );
-});
+};
 
 export default Post;
 
