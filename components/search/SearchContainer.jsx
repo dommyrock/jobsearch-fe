@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FreeTagInput, MultiselectCheckbox, MultiselectInput } from "./MultiselectInputs";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Modal from "../common/Modal";
+import MeiliSearch from "meilisearch";
 
 const theme = createTheme({
   palette: {
@@ -26,7 +28,22 @@ const theme = createTheme({
   },
 });
 
+const client = new MeiliSearch({
+  host: `https://meilisearchapimdevelopertier.azure-api.net/search`,
+});
+
 const SearchContainer = () => {
+  useEffect(() => {
+    client.httpRequest.headers["ApiKey"] = localStorage.getItem("apiKey") ?? undefined;
+  }, []);
+
+  const executeSearch = async () => {
+    //construct query params
+    let query = "qa";
+    //Execute search
+    debugger;
+    const data = await client.index("jobs").search(query, { limit: 15 });
+  };
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
       <div className="border border-gray-300 p-6 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg">
@@ -88,8 +105,14 @@ const SearchContainer = () => {
             </div>
           </ThemeProvider>
         </div>
-        <div className="flex justify-center">
-          <button className="p-2 border w-1/4 rounded-md bg-gray-800 text-white">Search</button>
+        <div className="flex justify-around">
+          <button
+            onClick={(e) => executeSearch()}
+            className="p-2 border w-1/4 rounded-md bg-gray-800 text-white"
+          >
+            Search
+          </button>
+          <Modal title="Api key" label="Enter your Api Key" />
         </div>
       </div>
     </div>

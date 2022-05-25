@@ -7,9 +7,6 @@ import Post from "../components/jobs/Post";
 import mockdata from "../mockdata.json";
 import styles from "../styles/Home.module.css";
 
-//TOOD: 
-// Implement fetching /refetching search logic here based on filters
-
 const Home: NextPage = () => {
   return (
     <div id="container" className={styles.container}>
@@ -39,7 +36,10 @@ const Home: NextPage = () => {
         </div>
 
         {/* Right sidebar hide on mobile*/}
-        <div id="sidebar" className="col-span-1 min-h-screen bg-slate-600 p-4 text-pink-500 text-2xl text-center">
+        <div
+          id="sidebar"
+          className="col-span-1 min-h-screen bg-slate-600 p-4 text-pink-500 text-2xl text-center"
+        >
           <h1>sidebar </h1>
         </div>
       </main>
