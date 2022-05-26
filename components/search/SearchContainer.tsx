@@ -4,45 +4,34 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Modal from "../common/Modal";
 import MeiliSearch from "meilisearch";
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      // light: will be calculated from palette.primary.main,
-      main: "#2c7a7b",
-      // dark: will be calculated from palette.primary.main,
-      // contrastText: will be calculated to contrast with palette.primary.main
-    },
-    secondary: {
-      light: "#0066ff",
-      main: "#2c7a7b82",
-      // dark: will be calculated from palette.secondary.main,
-      contrastText: "#fff",
-    },
-    // Used by `getContrastText()` to maximize the contrast between
-    // the background and the text.
-    contrastThreshold: 3,
-    // Used by the functions below to shift a color's luminance by approximately
-    // two indexes within its tonal palette.
-    // E.g., shift from Red 500 to Red 300 or Red 700.
-    tonalOffset: 0.2,
-  },
-});
-
-const client = new MeiliSearch({
-  host: `https://meilisearchapimdevelopertier.azure-api.net/search`,
-});
-
 const SearchContainer = () => {
-  useEffect(() => {
-    client.httpRequest.headers["ApiKey"] = localStorage.getItem("apiKey") ?? undefined;
-  }, []);
+  useEffect(() => {}, []);
+  const client = new MeiliSearch({
+    //Default to Free Tier endpoint
+    host: process.env.NEXT_PUBLIC_FREE_ENDPOINT!, 
+    //free "https://meilisearchapimdevelopertier.azure-api.net/jobsearch",
+    //paid "https://meilisearchapimdevelopertier.azure-api.net/ok",
+  });
 
   const executeSearch = async () => {
-    //construct query params
+    //construct query params (read from all possible)
     let query = "qa";
-    //Execute search
-    debugger;
-    const data = await client.index("jobs").search(query, { limit: 15 });
+
+    //Re-Validete API key before making request to API
+    if (localStorage.getItem("apiKey")) {
+      client.config.host = process.env.NEXT_PUBLIC_PAID_ENDPOINT!;
+
+      //Append needed headers
+      client.config.headers = {
+        ApiKey: localStorage.getItem("apiKey") ?? "",
+        "Content-Type": "application/json",
+      };
+    } else {
+      client.config.host = process.env.NEXT_PUBLIC_FREE_ENDPOINT!;
+    }
+
+    let data = await client.index("jobs").search(query, { limit: 15 });
+    console.log(data);
   };
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
@@ -119,6 +108,31 @@ const SearchContainer = () => {
   );
 };
 export default SearchContainer;
+
+//Material UI theme
+const theme = createTheme({
+  palette: {
+    primary: {
+      // light: will be calculated from palette.primary.main,
+      main: "#2c7a7b",
+      // dark: will be calculated from palette.primary.main,
+      // contrastText: will be calculated to contrast with palette.primary.main
+    },
+    secondary: {
+      light: "#0066ff",
+      main: "#2c7a7b82",
+      // dark: will be calculated from palette.secondary.main,
+      contrastText: "#fff",
+    },
+    // Used by `getContrastText()` to maximize the contrast between
+    // the background and the text.
+    contrastThreshold: 3,
+    // Used by the functions below to shift a color's luminance by approximately
+    // two indexes within its tonal palette.
+    // E.g., shift from Red 500 to Red 300 or Red 700.
+    tonalOffset: 0.2,
+  },
+});
 
 const companies = [
   { name: "Infobip", id: 1 },

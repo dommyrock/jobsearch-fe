@@ -4,8 +4,11 @@ import { Fragment, useState } from "react";
 export default function Modal({ title, label }) {
   let [isOpen, setIsOpen] = useState(false);
   let [val, setinput] = useState("");
-  function closeModal() {
-    setIsOpen(false);
+
+  function closeModal({keyCode}) {
+    if (keyCode === 13) {//enter
+      setIsOpen(false);
+    }
   }
 
   const openModal = () => {
@@ -37,7 +40,7 @@ export default function Modal({ title, label }) {
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+        <Dialog as="div" className="relative z-10" onClose={e=>setIsOpen(false)} onKeyDown={e =>closeModal(e)}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -83,8 +86,8 @@ export default function Modal({ title, label }) {
                     <input
                       type="text"
                       name="ApiKey"
-                      id="apikey"
-                      className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
+                      id="apikey-input"
+                      className="focus:ring-azure-500 focus:border-azure-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
                       placeholder="Api key here"
                       onInput={(e) => setApiKey(e.target.value)}
                       value={val}

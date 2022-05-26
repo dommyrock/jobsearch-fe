@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import SocialsContainer from "../components/common/SocialsContainer";
 import SearchContainer from "../components/search/SearchContainer";
 import Post from "../components/jobs/Post";
