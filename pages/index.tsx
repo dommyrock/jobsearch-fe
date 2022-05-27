@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       {/*V1[2cols] <main className="grid grid-cols-2 grid-rows-2 gap-4 min-h-screen"> */}
 
       <main className="grid grid-cols-4 grid-rows-1 gap-4">
-        <div className="col-span-4">
+        <div className="col-span-full">
           <SearchContainer />
         </div>
 
@@ -35,12 +35,12 @@ const Home: NextPage = () => {
         </div>
 
         {/* Right sidebar hide on mobile*/}
-        <div
+        {/* <div
           id="sidebar"
           className="col-span-1 min-h-screen bg-slate-600 p-4 text-pink-500 text-2xl text-center"
         >
           <h1>sidebar </h1>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>

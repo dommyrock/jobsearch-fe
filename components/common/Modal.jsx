@@ -64,12 +64,12 @@ export default function Modal({ title, label }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-2xl transition-all">
+                  <Dialog.Title as="h3" className="text-lg font-bold leading-6 text-gray-900">
                     {label}
                   </Dialog.Title>
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500">
+                    <p className="text-xs text-gray-500">
                       Api Key is required if you are planing to make more than 10 queries daily.
                     </p>
                   </div>
@@ -87,7 +87,8 @@ export default function Modal({ title, label }) {
                       type="text"
                       name="ApiKey"
                       id="apikey-input"
-                      className="focus:ring-azure-500 focus:border-azure-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
+                      // style={{backgroundColor: "#dadada"}}
+                      className="focus:ring-black focus:border-black block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
                       placeholder="Api key here"
                       onInput={(e) => setApiKey(e.target.value)}
                       value={val}
