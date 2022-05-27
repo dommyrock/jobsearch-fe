@@ -8,7 +8,7 @@ const SearchContainer = () => {
   useEffect(() => {}, []);
   const client = new MeiliSearch({
     //Default to Free Tier endpoint
-    host: process.env.NEXT_PUBLIC_FREE_ENDPOINT!, 
+    host: process.env.NEXT_PUBLIC_FREE_ENDPOINT!,
     //free "https://meilisearchapimdevelopertier.azure-api.net/jobsearch",
     //paid "https://meilisearchapimdevelopertier.azure-api.net/ok",
   });
@@ -35,31 +35,13 @@ const SearchContainer = () => {
   };
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
-      <div className="border border-gray-300 p-6 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg">
-        {/* <div className="flex flex-col md:flex-row">
-          <div className="pt-6 md:pt-0 md:pl-6">
-            <select className="border p-2 rounded">
-              <option>Round-trip</option>
-              <option>Missouri</option>
-              <option>texas</option>
-            </select>
-          </div>
-          <div className="pt-6 md:pt-0 md:pl-6">
-            <select className="border p-2 rounded">
-              <option>4 Passangers</option>
-              <option>3 Passangers</option>
-              <option>2 Passangers</option>
-            </select>
-          </div>
-          <div className="pt-6 md:pt-0 md:pl-6">
-            <select className="border p-2 rounded">
-              <option>Economy</option>
-            </select>
-          </div>
-        </div> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div
+        id="search-wrapper"
+        className="border border-gray-300 p-4 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg"
+      >
+        <div className="grid grid-cols-1">
           <ThemeProvider theme={theme}>
-            <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
+            <div id="sc" className="grid grid-cols-4 gap-2 border border-gray-200 p-2 rounded">
               <FreeTagInput />
               <MultiselectInput
                 id="multiselect-companies"
@@ -68,8 +50,8 @@ const SearchContainer = () => {
                 limitTags={3}
                 defaultValue={[0, 1]} //commonly searched companies
               />
-            </div>
-            <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded">
+              {/* </div>
+            <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded"> */}
               <MultiselectInput
                 id="multiselect-location"
                 label="Location"
