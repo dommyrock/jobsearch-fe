@@ -11,7 +11,7 @@ import {
   pre_card_content,
 } from "../../styles/job.module.css";
 
-const Post = ({ job })=> {
+const Post = ({ job,theme })=> {
   const divRef = useRef(null);
   const [buttons, setButtons] = useState("initial");
   //TODO : For mobile view remove short description and just show title and locations
@@ -46,7 +46,7 @@ const Post = ({ job })=> {
     <li>
       <Link href="/job/[id]" as={`/job/${2222222222222222}`}>
         <a className={job_a_class} target="_blank" rel="noopener noreferrer">
-          <div className="shadow-lg" itemScope="itemscope" itemType="http://schema.org/JobPosting">
+          <div id="post-theme" data-theme={theme} className="shadow-lg" itemScope="itemscope" itemType="http://schema.org/JobPosting">
             <div className={job_card_header}>
               <ul style={{ float: "right" }}>
                 <li>

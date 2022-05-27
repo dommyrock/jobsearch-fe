@@ -4,7 +4,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Modal from "../common/Modal";
 import MeiliSearch from "meilisearch";
 
-const SearchContainer = () => {
+const SearchContainer = ({globalTheme}:any) => {
   useEffect(() => {}, []);
   const client = new MeiliSearch({
     //Default to Free Tier endpoint
@@ -37,6 +37,7 @@ const SearchContainer = () => {
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
       <div
         id="search-wrapper"
+        data-theme={globalTheme}
         className="border border-gray-300 p-4 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg"
       >
         <div className="grid grid-cols-1">

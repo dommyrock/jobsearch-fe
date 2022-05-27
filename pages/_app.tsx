@@ -4,11 +4,9 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "../components/tracking/gtag";
-import FilterContextProvider from "../contexts/FilterContext";
+import ThemeContext from "../context/ThemeContext";
 
 const App = ({ Component, pageProps }: AppProps) => {
-  const [theme, setTheme] = useState<string>('light');
-  
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url: string) => {
@@ -43,9 +41,9 @@ const App = ({ Component, pageProps }: AppProps) => {
           `,
         }}
       />
-      <FilterContextProvider theme={theme} setTheme={setTheme}>
-        <Component {...pageProps} />
-      </FilterContextProvider>
+      <ThemeContext>
+          <Component {...pageProps} />
+      </ThemeContext>
     </>
   );
 };

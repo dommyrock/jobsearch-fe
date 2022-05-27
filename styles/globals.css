@@ -88,11 +88,21 @@ a {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(33, 31, 31, 0.3); */
 }
+/* THEME CSS */
+[data-theme="dark"].theme-wrapper {
+  background: #292828ea;
+  /* color: #fff; */
+}
+[data-theme="dark"]#post-theme,
+[data-theme="dark"]#search-wrapper {
+  background: #232323;
+  color: #fff;
+}
 
 /* MOBILE HANDLING  */
 @media only screen and (max-width: 800px) {
   /* DEVMODE SIGNAL MOBILE LAYOUT */
-  
+
   body {
     background-color: lightblue;
   }
@@ -106,12 +116,11 @@ a {
   #sidebar {
     display: none;
   }
-  #posts{
+  #posts {
     grid-column: span 4 / span 4;
   }
 }
 
-  
 /* SAMPLE FOR GENERIC Mobile first HANDLING */
 
 /* For mobile phones: */
