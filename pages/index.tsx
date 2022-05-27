@@ -14,9 +14,6 @@ const Home: NextPage = () => {
         <meta name="description" content="ahh..." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* place-items-center adds about 150px margin top*/}
-      {/*V1[2cols] <main className="grid grid-cols-2 grid-rows-2 gap-4 min-h-screen"> */}
-
       <main className="grid grid-cols-4 grid-rows-1 gap-4">
         <div className="col-span-full">
           <SearchContainer />
@@ -24,7 +21,7 @@ const Home: NextPage = () => {
 
         {/* JobPosts */}
         <div id="posts" className="col-span-3 min-h-screen p-4">
-          <div>
+          <div className="flex justify-center">
             <ol>
               {mockdata.jobs.map((job, index) => (
                 //ts type error/ignore

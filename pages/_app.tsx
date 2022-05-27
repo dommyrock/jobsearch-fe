@@ -1,23 +1,26 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import { useEffect } from 'react'
-import Script from 'next/script'
-import { useRouter } from 'next/router'
-import * as gtag from '../components/tracking/gtag'
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { useEffect, useState } from "react";
+import Script from "next/script";
+import { useRouter } from "next/router";
+import * as gtag from "../components/tracking/gtag";
+import FilterContextProvider from "../contexts/FilterContext";
 
 const App = ({ Component, pageProps }: AppProps) => {
-  const router = useRouter()
+  const [theme, setTheme] = useState<string>('light');
+  
+  const router = useRouter();
   useEffect(() => {
-    const handleRouteChange = (url:string) => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
-    router.events.on('hashChangeComplete', handleRouteChange)
+    const handleRouteChange = (url: string) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on("hashChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-      router.events.off('hashChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
+      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off("hashChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
@@ -40,9 +43,11 @@ const App = ({ Component, pageProps }: AppProps) => {
           `,
         }}
       />
-      <Component {...pageProps} />
+      <FilterContextProvider theme={theme} setTheme={setTheme}>
+        <Component {...pageProps} />
+      </FilterContextProvider>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

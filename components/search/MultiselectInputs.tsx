@@ -1,19 +1,29 @@
-// import * as React from "react";
 import Chip from "@mui/material/Chip";
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
-import * as React from 'react';
-import Checkbox from '@mui/material/Checkbox';
-import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
-import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import * as React from "react";
+import Checkbox from "@mui/material/Checkbox";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
 
 export const FreeTagInput = (props: any) => {
+  //this shoulb be moved to global app context (so filters selected are acessible from anywhere
+  //Also localStorage should be updated with each filter:value pair
+  const [freeTagInput, setFreeTagInputValue] = React.useState<string[]>([]); //replace w context
+
+  //MUI Event docs > https://mui.com/material-ui/api/autocomplete/#:~:text=provided%20translations.-,onChange,-func
+  function updateFreeTagInput(e: any, v: string[], reason: string) {
+    setFreeTagInputValue([...v]);
+    debugger
+  }
+
   return (
     <Autocomplete
       multiple
       id="size-small-outlined"
       size="small"
-      options={[]}
+      options={freeTagInput}
+      onChange={(e:any, v: string[], r: string) => updateFreeTagInput(e,v,r)}
       style={{ width: "100%" }}
       freeSolo
       renderTags={(value: readonly string[], getTagProps) =>
@@ -77,7 +87,6 @@ export const MultiselectInput = (props: SearchInputType) => {
   );
 };
 
-
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
 export const MultiselectCheckbox = (props: SearchInputType) => {
@@ -104,9 +113,7 @@ export const MultiselectCheckbox = (props: SearchInputType) => {
         </li>
       )}
       // style={{ width: 500 }}
-      renderInput={(params) => (
-        <TextField {...params} label={props.label} />
-      )}
+      renderInput={(params) => <TextField {...params} label={props.label} />}
     />
   );
-}
+};
