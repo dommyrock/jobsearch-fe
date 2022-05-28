@@ -1,39 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import { FreeTagInput, MultiselectCheckbox, MultiselectInput } from "./MultiselectInputs";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Modal from "../common/Modal";
-import MeiliSearch from "meilisearch";
+// import MeiliSearch from "meilisearch";
+import { FilterContext } from "../../context/FilterContext";
+import { FilterContextType } from "../../@types/filter";
 
-
-const SearchContainer = ({globalTheme}:any) => {
-
-  const client = new MeiliSearch({
-    //Default to Free Tier endpoint
-    host: process.env.NEXT_PUBLIC_FREE_ENDPOINT!,
-    //free "https://meilisearchapimdevelopertier.azure-api.net/jobsearch",
-    //paid "https://meilisearchapimdevelopertier.azure-api.net/ok",
-  });
-
-  const executeSearch = async () => {
-    //construct query params (read from all possible)
-    let query = "qa";
-
-    //Re-Validete API key before making request to API
-    if (localStorage.getItem("apiKey")) {
-      client.config.host = process.env.NEXT_PUBLIC_PAID_ENDPOINT!;
-
-      //Append needed headers
-      client.config.headers = {
-        ApiKey: localStorage.getItem("apiKey") ?? "",
-        "Content-Type": "application/json",
-      };
-    } else {
-      client.config.host = process.env.NEXT_PUBLIC_FREE_ENDPOINT!;
-    }
-
-    let data = await client.index("jobs").search(query, { limit: 15 });
-    console.log(data);
-  };
+const SearchContainer = ({ globalTheme }: any) => {
+  const { search } = useContext(FilterContext) as FilterContextType;
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
       <div
@@ -80,7 +54,7 @@ const SearchContainer = ({globalTheme}:any) => {
         </div>
         <div className="flex justify-around">
           <button
-            onClick={(e) => executeSearch()}
+            onClick={(e) => search()}
             className="p-2 border w-1/4 rounded-md bg-gray-800 text-white"
           >
             Search

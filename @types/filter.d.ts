@@ -13,4 +13,8 @@ export type FilterContextType = {
    filter: string[];
    // updateFilters: (filter: Filter) => void;
    updateFilter:(e: any, v: string[], reason: string) =>void
+   /**
+    *This Returns search Results >Hits 
+    */
+   search:() =>void //for now only console log hits :)
 };
