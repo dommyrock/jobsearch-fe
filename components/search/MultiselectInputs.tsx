@@ -5,25 +5,21 @@ import * as React from "react";
 import Checkbox from "@mui/material/Checkbox";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
+import { FilterContext } from "../../context/FilterContext";
+import { FilterContextType } from "../../@types/filter";
+  /*MUI Event docs
+    https://mui.com/material-ui/api/autocomplete/#:~:text=provided%20translations.-,onChange,-func*/
 
 export const FreeTagInput = (props: any) => {
-  //this shoulb be moved to global app context (so filters selected are acessible from anywhere
-  //Also localStorage should be updated with each filter:value pair
-  const [freeTagInput, setFreeTagInputValue] = React.useState<string[]>([]); //replace w context
-
-  //MUI Event docs > https://mui.com/material-ui/api/autocomplete/#:~:text=provided%20translations.-,onChange,-func
-  function updateFreeTagInput(e: any, v: string[], reason: string) {
-    setFreeTagInputValue([...v]);
-    debugger
-  }
+  const { filter, updateFilter } = React.useContext(FilterContext) as FilterContextType;
 
   return (
     <Autocomplete
       multiple
       id="size-small-outlined"
       size="small"
-      options={freeTagInput}
-      onChange={(e:any, v: string[], r: string) => updateFreeTagInput(e,v,r)}
+      options={filter}
+      onChange={(e: any, v: string[], r: string) => updateFilter(e, v, r)}
       style={{ width: "100%" }}
       freeSolo
       renderTags={(value: readonly string[], getTagProps) =>

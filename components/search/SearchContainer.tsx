@@ -4,8 +4,9 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Modal from "../common/Modal";
 import MeiliSearch from "meilisearch";
 
+
 const SearchContainer = ({globalTheme}:any) => {
-  useEffect(() => {}, []);
+
   const client = new MeiliSearch({
     //Default to Free Tier endpoint
     host: process.env.NEXT_PUBLIC_FREE_ENDPOINT!,

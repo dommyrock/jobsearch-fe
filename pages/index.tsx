@@ -7,7 +7,7 @@ import Post from "../components/jobs/Post";
 import mockdata from "../mockdata.json";
 import styles from "../styles/Home.module.css";
 import ThemeWrapper from "../components/ThemeWrapper";
-import { ThemeContextType, Theme } from "../@types/theme";
+import { ThemeContextType} from "../@types/theme";
 import { ThemeContext } from "../context/ThemeContext";
 
 const Home: NextPage = () => {

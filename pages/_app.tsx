@@ -5,6 +5,7 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from "../components/tracking/gtag";
 import ThemeContext from "../context/ThemeContext";
+import FilterContextProvider from "../context/FilterContext";
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
@@ -42,7 +43,9 @@ const App = ({ Component, pageProps }: AppProps) => {
         }}
       />
       <ThemeContext>
+        <FilterContextProvider>
           <Component {...pageProps} />
+        </FilterContextProvider>
       </ThemeContext>
     </>
   );
