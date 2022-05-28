@@ -1,8 +1,7 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { FreeTagInput, MultiselectCheckbox, MultiselectInput } from "./MultiselectInputs";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Modal from "../common/Modal";
-// import MeiliSearch from "meilisearch";
 import { FilterContext } from "../../context/FilterContext";
 import { FilterContextType } from "../../@types/filter";
 
@@ -27,7 +26,7 @@ const SearchContainer = ({ globalTheme }: any) => {
                 defaultValue={[0, 1]} //commonly searched companies
               />
               {/* </div>
-            <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded"> */}
+            <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded"> divides search filters 2x*/}
               <MultiselectInput
                 id="multiselect-location"
                 label="Location"

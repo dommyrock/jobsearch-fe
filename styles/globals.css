@@ -91,12 +91,16 @@ a {
 /* THEME CSS */
 [data-theme="dark"].theme-wrapper {
   background: #292828ea;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   /* color: #fff; */
 }
 [data-theme="dark"]#post-theme,
 [data-theme="dark"]#search-wrapper {
   background: #232323;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* MOBILE HANDLING  */
