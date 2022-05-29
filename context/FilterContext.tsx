@@ -58,7 +58,7 @@ export const FilterContextProvider: React.FC<Props> = ({ children }) => {
         updateFilter: updateTagInput,
         search: commitQuery,
         collapsed: collapsed,
-        collapse: collapseFilters,
+        collapseFilters,
       }}
     >
       {children}

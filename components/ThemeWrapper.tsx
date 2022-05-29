@@ -14,7 +14,7 @@ const ThemeWrapper: React.FC<Props> = ({ children }) => {
   };
   return (
     <div className="theme-wrapper" data-theme={theme}>
-      <button onClick={handleThemeChange}>
+      <button  title="Theme" className="absolute p-2" onClick={handleThemeChange}>
         {theme === "light" ? <Mode stroke="#000" fill="#000" /> : <Mode stroke="#fff" />}
       </button>
       {children}

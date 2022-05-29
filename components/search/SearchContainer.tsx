@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FreeTagInput, MultiselectCheckbox, MultiselectInput } from "./MultiselectInputs";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme, ThemeProvider as MuiThemePRovider } from "@mui/material/styles";
 import Modal from "../common/Modal";
 import { FilterContext } from "../../context/FilterContext";
 import { FilterContextType } from "../../@types/filter";
@@ -10,17 +10,17 @@ import { FilterContextType } from "../../@types/filter";
 //or https://stackoverflow.com/questions/48143381/css-expand-contract-animation-to-show-hide-content
 
 const SearchContainer = ({ globalTheme }: any) => {
-  const { search, collapsed, collapse } = useContext(FilterContext) as FilterContextType;
+  const { search, collapsed, collapseFilters } = useContext(FilterContext) as FilterContextType;
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
       <div
         id="search-wrapper"
         data-theme={globalTheme}
-        className="border border-gray-300 p-4 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg min-w-[420px]"
+        className="border border-gray-300 p-2 grid grid-cols-1 gap-3 bg-white shadow-lg rounded-lg"
       >
         <div className="grid grid-cols-1">
-          <div className="flex transition-all ease-in-out delay-300">
-            <ThemeProvider theme={theme}>
+          <div className="flex justify-around">
+            <MuiThemePRovider theme={theme}>
               <div
                 id="sc"
                 className={`grid grid-cols-${collapsed.colNumber} gap-2 border border-gray-200 p-2 rounded min-w-[420px]`}
@@ -63,8 +63,8 @@ const SearchContainer = ({ globalTheme }: any) => {
                 limitTags={2}
               /> */}
               </div>
-            </ThemeProvider>
-            <button onClick={collapse}>
+            </MuiThemePRovider>
+            <button title="More Filters" id="btn-filter-colapse" className="bg-gray-100 outline-none" onClick={collapseFilters}>
               {collapsed.visibility === "hidden" ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

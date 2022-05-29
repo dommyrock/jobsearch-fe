@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
   return (
     <ThemeWrapper>
-      <div id="container" className={styles.container}>
+      <div id="container" className="container px-8 pt-2">
         <Head>
           <title>Gig crawl</title>
           <meta name="description" content="ahh..." />

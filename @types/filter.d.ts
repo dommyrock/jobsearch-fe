@@ -10,7 +10,7 @@ export type FilterContextType = {
     *This Returns search Results >Hits 
     */
    search: () => void //for now only console log hits :)
-   collapse: () => void
+   collapseFilters: () => void
 };
 export type Filter = string[];
 

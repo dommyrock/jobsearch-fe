@@ -16,7 +16,7 @@ export const FreeTagInput = (props: any) => {
   return (
     <Autocomplete
       multiple
-      id="size-small-outlined"
+      id="free-tag-input"
       size="small"
       options={filter}
       onChange={(e: any, v: string[], r: string) => updateFilter(e, v, r)}
