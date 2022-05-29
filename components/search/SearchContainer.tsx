@@ -5,51 +5,91 @@ import Modal from "../common/Modal";
 import { FilterContext } from "../../context/FilterContext";
 import { FilterContextType } from "../../@types/filter";
 
+//Animate Colapse of filters (should translate to React)
+//https://codepen.io/mbxtr/pen/OJPOYg
+//or https://stackoverflow.com/questions/48143381/css-expand-contract-animation-to-show-hide-content
+
 const SearchContainer = ({ globalTheme }: any) => {
-  const { search } = useContext(FilterContext) as FilterContextType;
+  const { search, collapsed, collapse } = useContext(FilterContext) as FilterContextType;
   return (
     <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
       <div
         id="search-wrapper"
         data-theme={globalTheme}
-        className="border border-gray-300 p-4 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg"
+        className="border border-gray-300 p-4 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg min-w-[420px]"
       >
         <div className="grid grid-cols-1">
-          <ThemeProvider theme={theme}>
-            <div id="sc" className="grid grid-cols-4 gap-2 border border-gray-200 p-2 rounded">
-              <FreeTagInput />
-              <MultiselectInput
-                id="multiselect-companies"
-                label="Companies"
-                options={companies}
-                limitTags={3}
-                defaultValue={[0, 1]} //commonly searched companies
-              />
-              {/* </div>
-            <div className="grid grid-cols-2 gap-2 border border-gray-200 p-2 rounded"> divides search filters 2x*/}
-              <MultiselectInput
-                id="multiselect-location"
-                label="Location"
-                options={locations}
-                limitTags={2}
-                defaultValue={[0]} //all
-                customChip={true}
-              />
-              <MultiselectInput
-                id="multiselect-tech-stack"
-                label="Tech stack"
-                options={langs}
-                limitTags={2}
-              />
-              {/* Add job type filtering when i complate initial search */}
-              {/* <MultiselectCheckbox
+          <div className="flex transition-all ease-in-out delay-300">
+            <ThemeProvider theme={theme}>
+              <div
+                id="sc"
+                className={`grid grid-cols-${collapsed.colNumber} gap-2 border border-gray-200 p-2 rounded min-w-[420px]`}
+              >
+                {/* NON COLLAPSABLE FILTERS */}
+                <FreeTagInput />
+                {/* COLLAPSABLE FILTERS */}
+                <div className={`${collapsed.visibility}`}>
+                  <MultiselectInput
+                    id="multiselect-companies"
+                    label="Companies"
+                    options={companies}
+                    limitTags={3}
+                    defaultValue={[0, 1]} //commonly searched companies
+                  />
+                </div>
+                <div className={`${collapsed.visibility}`}>
+                  <MultiselectInput
+                    id="multiselect-location"
+                    label="Location"
+                    options={locations}
+                    limitTags={2}
+                    defaultValue={[0]} //all
+                    customChip={true}
+                  />
+                </div>
+                <div className={`${collapsed.visibility}`}>
+                  <MultiselectInput
+                    id="multiselect-tech-stack"
+                    label="Tech stack"
+                    options={langs}
+                    limitTags={2}
+                  />
+                </div>
+                {/* Add job type filtering when i complate initial search */}
+                {/* <MultiselectCheckbox
                 id="multi-checkbox"
                 label="Job Type"
                 options={jobType}
                 limitTags={2}
               /> */}
-            </div>
-          </ThemeProvider>
+              </div>
+            </ThemeProvider>
+            <button onClick={collapse}>
+              {collapsed.visibility === "hidden" ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+              )}
+            </button>
+          </div>
         </div>
         <div className="flex justify-around">
           <button
@@ -71,13 +111,13 @@ const theme = createTheme({
   palette: {
     primary: {
       // light: will be calculated from palette.primary.main,
-      main: "#2c7a7b",
+      main: "#4c49497d",
       // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
     },
     secondary: {
       light: "#0066ff",
-      main: "#2c7a7b82",
+      main: "#376d7ed1",
       // dark: will be calculated from palette.secondary.main,
       contrastText: "#fff",
     },

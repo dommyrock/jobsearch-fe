@@ -28,13 +28,13 @@ export const FreeTagInput = (props: any) => {
           <Chip
             variant="outlined"
             size="medium"
-            color="primary"
+            color="secondary"
             label={option}
             {...getTagProps({ index })}
           />
         ))
       }
-      renderInput={(params) => <TextField {...params} variant="standard" label="Keyword search" />}
+      renderInput={(params) => <TextField {...params}  label="Keyword search" />}
     />
   );
 };

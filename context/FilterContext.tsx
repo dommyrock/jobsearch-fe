@@ -1,6 +1,6 @@
 import MeiliSearch from "meilisearch";
 import React, { useCallback } from "react";
-import { FilterContextType, Filter } from "../@types/filter";
+import { FilterContextType, Filter, CollapsedFilters } from "../@types/filter";
 import { Props } from "../Interfaces";
 
 export const FilterContext = React.createContext<FilterContextType | null>(null);
@@ -14,6 +14,7 @@ const client = new MeiliSearch({
 
 export const FilterContextProvider: React.FC<Props> = ({ children }) => {
   const [filters, setFilter] = React.useState<Filter>([]);
+  const [collapsed, setColapsed] = React.useState<CollapsedFilters>({ colNumber: 4, visibility: "" });
 
   const updateTagInput = (e: any, values: string[], reason: string) => {
     setFilter([...values]);
@@ -43,12 +44,21 @@ export const FilterContextProvider: React.FC<Props> = ({ children }) => {
     console.log(data);
   };
 
+  const collapseFilters = () => {
+    if (collapsed.visibility === "") {
+      return setColapsed({ colNumber: 1, visibility: "hidden" });
+    }
+    setColapsed({ colNumber: 4, visibility: "" });
+  };
+
   return (
     <FilterContext.Provider
       value={{
         filter: filters,
         updateFilter: updateTagInput,
         search: commitQuery,
+        collapsed: collapsed,
+        collapse: collapseFilters,
       }}
     >
       {children}
