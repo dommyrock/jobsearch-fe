@@ -4,13 +4,14 @@ export type FilterContextType = {
     * Indicates if some filters are colapsed or visible.
     */
    collapsed: CollapsedFilters
-   // updateFilters: (filter: Filter) => void;
+   rateLimitExceeded:boolean
    updateFilter: (e: any, v: string[], reason: string) => void
    /**
     *This Returns search Results >Hits 
     */
    search: () => void //for now only console log hits :)
    collapseFilters: () => void
+   setRLExceededStatus: () => void
 };
 export type Filter = string[];
 

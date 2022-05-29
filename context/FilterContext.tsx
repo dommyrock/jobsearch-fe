@@ -14,14 +14,17 @@ const client = new MeiliSearch({
 
 export const FilterContextProvider: React.FC<Props> = ({ children }) => {
   const [filters, setFilter] = React.useState<Filter>([]);
-  const [collapsed, setColapsed] = React.useState<CollapsedFilters>({ colNumber: 4, visibility: "" });
+  const [isRateLimitExceeded, setRateLimitExceeded] = React.useState<boolean>(false);
+  const [collapsed, setColapsed] = React.useState<CollapsedFilters>({
+    colNumber: 4,
+    visibility: "",
+  });
 
   const updateTagInput = (e: any, values: string[], reason: string) => {
     setFilter([...values]);
   };
 
   const commitQuery = async () => {
-    debugger;
     //construct query params from all input types above in state ^
     let query = "qa";
     //NOTE:
@@ -40,8 +43,16 @@ export const FilterContextProvider: React.FC<Props> = ({ children }) => {
       client.config.host = process.env.NEXT_PUBLIC_FREE_ENDPOINT!;
     }
 
-    let data = await client.index("jobs").search(query, { limit: 15 });
-    console.log(data);
+    try {
+      let data = await client.index("jobs").search(query, { limit: 10 });
+      console.log(data);
+    } catch (error: any) {
+      // HANDLE 229 Exceeded RateLimit /API Key missing error
+      if (error.type === "MeiliSearchCommunicationError") {
+        setRateLimitExceeded(true);
+      }
+      console.error(error.message);
+    }
   };
 
   const collapseFilters = () => {
@@ -55,10 +66,12 @@ export const FilterContextProvider: React.FC<Props> = ({ children }) => {
     <FilterContext.Provider
       value={{
         filter: filters,
+        collapsed: collapsed,
+        rateLimitExceeded: isRateLimitExceeded,
+        collapseFilters,
         updateFilter: updateTagInput,
         search: commitQuery,
-        collapsed: collapsed,
-        collapseFilters,
+        setRLExceededStatus: () => setRateLimitExceeded(false),
       }}
     >
       {children}

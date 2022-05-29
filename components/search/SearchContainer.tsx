@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { FreeTagInput, MultiselectCheckbox, MultiselectInput } from "./MultiselectInputs";
 import { createTheme, ThemeProvider as MuiThemePRovider } from "@mui/material/styles";
-import Modal from "../common/Modal";
+import ApiKeyModal from "../common/modals/ApiKeyModal";
 import { FilterContext } from "../../context/FilterContext";
 import { FilterContextType } from "../../@types/filter";
 
@@ -98,7 +98,7 @@ const SearchContainer = ({ globalTheme }: any) => {
           >
             Search
           </button>
-          <Modal title="Api key" label="Enter your Api Key" />
+          <ApiKeyModal title="Api key" label="Enter your Api Key" />
         </div>
       </div>
     </div>
