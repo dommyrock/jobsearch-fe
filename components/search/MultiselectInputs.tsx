@@ -7,11 +7,14 @@ import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import { FilterContext } from "../../context/FilterContext";
 import { FilterContextType } from "../../@types/filter";
-  /*MUI Event docs
+import { ThemeContext } from "../../context/ThemeContext";
+import { ThemeContextType } from "../../@types/theme";
+/*MUI Event docs
     https://mui.com/material-ui/api/autocomplete/#:~:text=provided%20translations.-,onChange,-func*/
 
-export const FreeTagInput = (props: any) => {
+export const FreeTagInput = () => {
   const { filter, updateFilter } = React.useContext(FilterContext) as FilterContextType;
+  const { theme } = React.useContext(ThemeContext) as ThemeContextType;
 
   return (
     <Autocomplete
@@ -27,14 +30,14 @@ export const FreeTagInput = (props: any) => {
           // eslint-disable-next-line react/jsx-key
           <Chip
             variant="outlined"
-            size="medium"
-            color="secondary"
+            size="small"
+            color={theme === "light" ? "primary" : "secondary"}
             label={option}
             {...getTagProps({ index })}
           />
         ))
       }
-      renderInput={(params) => <TextField {...params}  label="Keyword search" />}
+      renderInput={(params) => <TextField {...params} label="Keyword search" />}
     />
   );
 };
@@ -52,6 +55,8 @@ type SearchOption = {
 };
 /**Filter selected Generic multiselect */
 export const MultiselectInput = (props: SearchInputType) => {
+  const { theme } = React.useContext(ThemeContext) as ThemeContextType;
+
   return (
     <Autocomplete
       multiple
@@ -71,7 +76,7 @@ export const MultiselectInput = (props: SearchInputType) => {
                 <Chip
                   variant="filled"
                   size="small"
-                  color="secondary"
+                  color={theme === "light" ? "primary" : "secondary"}
                   label={option.name}
                   {...getTagProps({ index })}
                 />

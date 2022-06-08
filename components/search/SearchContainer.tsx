@@ -129,6 +129,39 @@ const theme = createTheme({
     // E.g., shift from Red 500 to Red 300 or Red 700.
     tonalOffset: 0.2,
   },
+  // MUI component CSS Override
+  components:{
+    MuiChip:{
+      styleOverrides:{
+        //PRIMARY OVERRIDE
+        deleteIconColorPrimary:{
+          // fill: "#8f18536e" //lighter
+          fill: "#aa3671b8" //darker
+        },
+        colorPrimary:{
+          color:"#475569",
+          border: "1px solid #475569de",
+          fontSize: "1rem",
+        },
+        //SECONDARY OVERRIDE
+        deleteIconColorSecondary:{
+          fill: "#d84690" 
+        },
+        colorSecondary:{
+          color:"#fff",
+          border: "1px solid #fff",
+          fontSize: "1rem",
+        },
+        //VARIANTS OVERRIDE
+        filled:{
+          color:"#fff",
+          backgroundColor:"#47556994",
+
+          border:"none",
+        },       
+      },
+    }
+  }
 });
 
 const companies = [
